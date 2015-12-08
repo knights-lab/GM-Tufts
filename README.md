@@ -1,6 +1,9 @@
 # tufts-fiber
 Analysis of tufts whole-grain fiber study 201
 
+# NOTE
+Additional readmes with detailed descriptions of analyses and results can be found in corresponding /results folders
+
 # QIIME processing steps
 
 ## preprocessing
