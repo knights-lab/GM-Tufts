@@ -1,0 +1,49 @@
+Alpha Diversity at Timepoint 1 and Delta Alpha Diversity associated with Delta Clinical Covariate
+SERUMPK 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.551886439569415	0.551886439569415	-0.947085459459352
+delta_alpha_div ~ delta_clinical_var	0.272302772997472	0.544605545994944	1.27449433413987
+MK4 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.704914728109005	0.910392003092637	0.628601046304915
+delta_alpha_div ~ delta_clinical_var	0.910392003092637	0.910392003092637	0.136711368783341
+PK 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.493863544755832	0.493863544755832	0.610891327624783
+delta_alpha_div ~ delta_clinical_var	0.245981892378693	0.491963784757385	0.755406070478309
+MK5 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.171215712087292	0.342431424174584	18.2338852785455
+delta_alpha_div ~ delta_clinical_var	0.623255806549134	0.623255806549134	-4.81571309193125
+MK6 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.787529249340789	0.787529249340789	0.853722050078019
+delta_alpha_div ~ delta_clinical_var	0.0264420709653785	0.0528841419307569	5.05674901229359
+MK7 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.770493177945203	0.770493177945203	-1.17843566013138
+delta_alpha_div ~ delta_clinical_var	0.00922067689982863	0.0184413537996573	7.51671363625421
+MK8 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.396209714816193	0.396209714816193	-2.65438328351433
+delta_alpha_div ~ delta_clinical_var	0.306554301322727	0.396209714816193	2.33730427094877
+MK9 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.752707061164556	0.752707061164556	-0.937908485523751
+delta_alpha_div ~ delta_clinical_var	0.620819614896732	0.752707061164556	-1.07661185949471
+MK10 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.742592933685557	0.742592933685557	0.18188598127198
+delta_alpha_div ~ delta_clinical_var	0.674440245009773	0.742592933685557	0.170127164904295
+MK11 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.813632297371772	0.813632297371772	0.15135193364217
+delta_alpha_div ~ delta_clinical_var	0.621326522862729	0.813632297371772	-0.231825909558103
+MK12 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.699185049841491	0.699185049841491	0.193714004034612
+delta_alpha_div ~ delta_clinical_var	0.570525825283144	0.699185049841491	-0.207888710596144
+MK13 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.831332853260701	0.831332853260701	0.0866784094288729
+delta_alpha_div ~ delta_clinical_var	0.304818380352372	0.609636760704744	-0.304387654791705

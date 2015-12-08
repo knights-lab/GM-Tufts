@@ -1,0 +1,21 @@
+Significant Taxon ~ Clinical at Timepoint
+CD3POS 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Parabacteroides	0.00532475537240863	0.157080283486055	0.00219892793494171
+k__Bacteria;p__Cyanobacteria;c__4C0d-2;o__YS2;f__;g__	0.00309443692747952	0.157080283486055	-0.000647636743417122
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Alcaligenaceae;g__Sutterella	0.00418366483870985	0.157080283486055	0.0019226282153906
+AVG24HRD 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Paraprevotellaceae];g__	0.000172017554007921	0.0202980713729347	0.000945797063027363
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__;g__	0.000744717413017328	0.0439383273680223	0.00407293676688247
+AVG48HRD 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Paraprevotellaceae];g__	0.00039651837108099	0.0467891677875569	0.00123594063127179
+k__Bacteria;p__Lentisphaerae;c__[Lentisphaeria];o__Victivallales;f__Victivallaceae;g__	0.00172237729383753	0.101620260336414	0.000754792123814726
+LARGSTRESPD 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Paraprevotellaceae];g__	0.00011865698279182	0.0140015239694347	0.000950977577632604
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__;g__	0.000568797957293161	0.0335590794802965	0.00408825013348404
+LPS_IL_6 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Odoribacteraceae];g__Butyricimonas	0.0017055484552674	0.201254717721553	-7.15584746684847e-06

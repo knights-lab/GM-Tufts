@@ -1,0 +1,17 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+FFM 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Atopobium	0.00161586772802791	0.190672391907294	308.330243171648
+WHR 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;Other	0.00174121002719186	0.205462783208639	-0.956263985262557
+REE 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;Other	0.000431506418454089	0.0509177573775825	18353.3914446218
+ADJREE 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;Other	0.000716670396910684	0.0845671068354607	17887.6781049043

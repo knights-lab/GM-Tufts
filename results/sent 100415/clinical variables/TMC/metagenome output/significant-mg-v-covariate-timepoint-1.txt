@@ -1,0 +1,4 @@
+Significant Taxon ~ Clinical at Baseline
+PH 
+pvals	adj.pvals	coeffs
+Biosynthesis of unsaturated fatty acids	0.00139408183060868	0.078068582514086	-0.00190878454828826

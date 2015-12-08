@@ -1,0 +1,7 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+PH 
+Group A
+pvals	adj.pvals	coeffs
+D-Alanine metabolism	0.00177488185557433	0.0993933839121625	-141.614926003671
+Histidine metabolism	0.0109557927837705	0.204508131963717	43.3813584649278
+Peptidoglycan biosynthesis	0.0085962348521008	0.204508131963717	-42.9546785506619

@@ -1,0 +1,17 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+ISO 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__Christensenella	0.00779826408924654	0.108287439006637	-49758.1397033351
+DGCRE 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;Other;Other	0.00054723645557254	0.0645739017575598	-14959.4808558226
+TOTCHOL 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__Christensenella	0.000108651090308413	0.0128208286563927	4391.67582192014
+LDL 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__Christensenella	0.00116794067618413	0.137816999789728	3279.29102262269

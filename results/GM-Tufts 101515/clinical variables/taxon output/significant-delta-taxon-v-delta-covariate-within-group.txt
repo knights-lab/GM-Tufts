@@ -1,0 +1,38 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+FM 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Odoribacteraceae];g__Butyricimonas	0.000675848559878797	0.079750130065698	-58.6305266236611
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Paraprevotellaceae];g__	0.0142769030385927	0.240667794079134	-26.9124340324623
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;Other;Other	0.00381188355795939	0.130695574817437	-152.314779934849
+CD4NAIVE 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__S24-7;g__	0.0247613555853989	0.182614997442317	-171.714622557155
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium	0.0048702104764717	0.0801580034493618	304.230158127603
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__SMB53	0.00982211218621422	0.0912735232744331	1333.05833469785
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Eubacteriaceae;g__Anaerofustis	0.000476411888456273	0.0281083014189201	2498.62734955649
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__[Tissierellaceae];g__Parvimonas	0.00109188576599838	0.0322106300969522	3551.96797524636
+DAILYSTOOLEN 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;Other;Other	0.0014666942773794	0.173069924730769	904.65793874907
+CONA_5UG_PER_ML 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Atopobium	0.00448525177737432	0.0661574637162712	2025761.76672107
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptococcaceae;g__rc4-4	0.00594642073880151	0.077964183019842	612135.151206448
+ACETATE 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Slackia	0.00141585295621023	0.137631754773207	-215.580078067429
+PROPIONATE 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces	0.00210391500038743	0.0620654925114291	161.125090912053
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__[Ruminococcus]	0.00196883923177765	0.0620654925114291	22.9613807596188
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Oxalobacteraceae;g__Oxalobacter	0.00739531599749785	0.119196993405304	137.060085801655
+ADJREE 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;Other	0.000716670396910684	0.0845671068354607	17887.6781049043

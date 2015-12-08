@@ -1,0 +1,5 @@
+Use the initial microbiome to predict change in clinical covariate, stratified by treatment group
+ISO Group A R^2: -0.1690105 
+ISO Group B R^2: 0.08528056 
+OR Group A R^2: -0.233336 
+OR Group B R^2: -0.05381985 

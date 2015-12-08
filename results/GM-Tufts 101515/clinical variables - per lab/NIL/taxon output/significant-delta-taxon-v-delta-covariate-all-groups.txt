@@ -1,0 +1,16 @@
+Significant Delta Taxon ~ Delta Clinical for all Groups
+BCELLS 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus	0.00645528949756982	0.12695402678554	-79.3830305924951
+AVG24HRC 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Eggerthella	0.00202842734296161	0.0900102065030132	431.602020579089
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Leuconostocaceae;g__Leuconostoc	0.0182672599577049	0.232104162311205	-889.805112677483
+AVG48HRD 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Lactococcus	0.00339411667998854	0.200252884119324	111.766266242435
+STOOL_TGF 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Adlercreutzia	0.00342436216643099	0.050509341954857	18.1094695105846
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Oscillospira	0.00158556347980381	0.0336829943565517	5.02371345956548
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__cc_115	0.042687894483218	0.226272589720802	23.4514970771158

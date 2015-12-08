@@ -1,0 +1,7 @@
+Significant Delta Taxon ~ Delta Clinical for all Groups
+BMI 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Acidaminococcus	0.00104401644508941	0.123193940520551	-6.87001208222605
+WT 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Acidaminococcus	0.00163399006178632	0.192810827290786	-19.7308747862401

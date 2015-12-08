@@ -1,0 +1,6 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+BPDAVG 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Lactobacillus	0.00834672665493453	0.211862918568841	-115.583676813326
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Coprococcus	0.000899311545100835	0.106118762321899	-51.264779741266

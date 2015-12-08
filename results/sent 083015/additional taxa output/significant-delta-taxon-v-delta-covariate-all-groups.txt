@@ -1,0 +1,4 @@
+Significant Delta Taxon ~ Delta Clinical for all Groups
+All Groups
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Alcaligenaceae;g__Sutterella	0.000583241640745685	0.0303285653187756	48292.4878295129

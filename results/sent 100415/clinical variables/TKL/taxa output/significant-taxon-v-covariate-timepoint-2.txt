@@ -1,0 +1,7 @@
+Significant Taxon ~ Clinical
+MK10 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__Christensenella	0.0146272987395313	0.225004637681913	0.000265818030027139
+MK13 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;Other	0.000894236900433034	0.105519954251098	0.000761949986767502

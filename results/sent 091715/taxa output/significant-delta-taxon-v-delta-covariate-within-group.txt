@@ -1,0 +1,28 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+FM 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Odoribacteraceae];g__Butyricimonas	0.000675848559878797	0.0351441251136974	-58.6305266236611
+CD4Naive 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__S24-7;g__	0.0247613555853989	0.154659318255501	-171.714622557155
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium	0.0048702104764717	0.063312736194132	304.230158127603
+StoolEn 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Blautia	0.0125802002606172	0.241374972199333	-1942.3055131175
+Tdiam24hr 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Paraprevotellaceae];g__Paraprevotella	0.00210049631311251	0.109225808281851	-154.759220009132
+Plasma_IL_6 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Proteobacteria;c__Alphaproteobacteria;o__RF32;f__;g__	2.30578262911321e-06	0.000119900696713887	51.0576650086806
+Propionate 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__	0.0311196613939901	0.147111126589771	6.80104306063912
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Blautia	0.0282983027997118	0.147111126589771	8.5311924109513
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__[Ruminococcus]	0.00196883923177765	0.034126546684146	22.9613807596188

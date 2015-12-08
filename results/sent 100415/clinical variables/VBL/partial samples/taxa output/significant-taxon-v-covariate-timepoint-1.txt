@@ -1,0 +1,7 @@
+Significant Taxon ~ Clinical at Timepoint
+ISO 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Alcaligenaceae;g__Sutterella	0.00165825217623154	0.195673756795322	0.000145836110793213
+OR 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__	0.00463542277948179	0.166162804614824	0.00877766236426096

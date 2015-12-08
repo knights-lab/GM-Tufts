@@ -1,0 +1,8 @@
+Significant Taxon ~ Clinical at Timepoint
+ISO 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Megasphaera	0.000693581552498191	0.0818426231947865	0.000107530624689701
+BPSAVG 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Oscillospira	0.00518499964985478	0.203943319560955	-0.00116320459967719
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Phascolarctobacterium	0.00296274698423364	0.203943319560955	-0.00169279136540863

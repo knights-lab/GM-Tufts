@@ -1,0 +1,5 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+MK9 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__[Eubacterium]	0.000100684537808126	0.00854139516665019	-13.2692669798857

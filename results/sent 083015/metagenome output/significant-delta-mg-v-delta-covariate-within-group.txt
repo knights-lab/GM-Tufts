@@ -1,0 +1,12 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+FM 
+Group B
+pvals	adj.pvals	coeffs
+Biosynthesis of unsaturated fatty acids	0.011295734703677	0.242858296129055	-512.58203343179
+Iso 
+Group B
+pvals	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	0.00126304758807703	0.0271555231436561	-56727.5064208304
+Amino sugar and nucleotide sugar metabolism	0.0145535959922831	0.208601542556058	-26574.1376725192
+Other glycan degradation	0.0252340279585169	0.217012640443245	-11508.6340616702
+Taurine and hypotaurine metabolism	0.000584148306335635	0.0251183771724323	-88819.5433430327

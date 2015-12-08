@@ -1,0 +1,10 @@
+Significant Taxon ~ Clinical at Baseline
+MK5 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Gemellales;f__Gemellaceae;g__	0.0029336987604867	0.0692352907474862	0.00411067314806281
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Roseburia	0.0137509741411023	0.147510449877279	0.0714437214358126
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Faecalibacterium	0.00242834265627573	0.0692352907474862	0.115058518001635
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Oxalobacteraceae;g__	0.0118470127498413	0.139794750448128	-0.00541251792042099
+MK13 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Gemellales;f__Gemellaceae;g__	0.00213925874758393	0.209421055062663	7.14474246892756e-05

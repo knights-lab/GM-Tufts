@@ -1,0 +1,19 @@
+Significant Taxon ~ Clinical at Timepoint
+ANTI_CD3_1UG_PER_ML 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Eggerthella	0.006757397411347	0.199343223634737	-1.62758865085156e-07
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Slackia	0.000503566857857367	0.0419681080831509	3.67085981669259e-07
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__;g__	0.000711323865816117	0.0419681080831509	1.84266380570404e-06
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Paraprevotellaceae];g__	0.00154619154619822	0.0608168674837965	6.21835634737013e-07
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Holdemania	0.00874370833951632	0.206351516812585	-2.49824065497957e-07
+ANTI_CD3_5UG_PER_ML 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Eggerthella	0.00812088721147086	0.214402355278891	-1.26137576170583e-07
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__;g__	0.000398648498480856	0.047040522820741	1.51882428670538e-06
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Paraprevotellaceae];g__	0.00637995370814754	0.214402355278891	4.29237295876954e-07
+CELLDEATH25 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;Other	0.000256429582224438	0.0302586907024836	-0.000377210541286781
+STOOL_TNF 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Paraprevotellaceae];g__Paraprevotella	0.00198755809154257	0.0905097517168744	-0.0139423473996804

@@ -1,0 +1,4 @@
+Significant Taxon ~ Clinical
+AA_RATIO 
+pvals	adj.pvals	coeffs
+Various types of N-glycan biosynthesis	0.00139993260082682	0.0783962256463019	0.01375581685807

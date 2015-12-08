@@ -1,0 +1,4 @@
+Significant Taxon ~ Clinical
+HDL 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;Other;Other	0.00304226798312914	0.17949381100462	-0.00378056349915416

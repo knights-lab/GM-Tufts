@@ -1,0 +1,5 @@
+Significant Delta Taxon ~ Delta Clinical for all Groups
+LPS_TNF_A 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptostreptococcaceae;g__	0.00514912612770695	0.230637257680605	-703143.053017768
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Alcaligenaceae;g__Sutterella	0.000583241640745685	0.0688225136079908	48292.4878295129

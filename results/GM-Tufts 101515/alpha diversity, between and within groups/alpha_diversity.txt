@@ -1,0 +1,15 @@
+Alpha Diversity between groups at Timepoint 1 and 2
+Timepoint  1 
+p-value 0.01266483 
+Group A and Group B Means 72.56517 62.99167 
+Timepoint  2 
+p-value 0.1060251 
+Group A and Group B Means 71.4209 65.06254 
+
+Alpha Diversity within groups between timepoints (paired t-test)
+Group A 
+p-value 0.5946 
+Mean of the differences 1.144266
+Group B
+p-value 0.2434
+Mean of the differences -2.070872

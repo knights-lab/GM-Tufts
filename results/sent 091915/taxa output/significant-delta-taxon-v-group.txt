@@ -1,0 +1,4 @@
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Lachnospira	0.00406451463195316	0.112666161836096	0.0413490044498678
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Roseburia	0.0075929772328137	0.134142597779709	0.0405227235598198
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__	0.00425155327683383	0.112666161836096	-0.0147880739379418

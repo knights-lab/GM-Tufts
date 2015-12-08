@@ -1,0 +1,8 @@
+Significant Taxon ~ Clinical at Timepoint
+H 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Acidaminococcus	0.000198212794147574	0.0233891097094138	0.00210662300465197
+CH 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;Other	0.00214700508508506	0.103150199574885	5.36254453596698e-05
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus	0.00262246270105639	0.103150199574885	0.000312092153460683

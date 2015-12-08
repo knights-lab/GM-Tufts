@@ -1,0 +1,24 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 Alpha Diversity\
+	WITHOUT RESAMPLING\
+	-> alpha$PD_whole_tree is NOT normally distributed based on Shapiro Wilks (P-value = 8.8e10-6)	\
+	Using Mann Whitney U test\
+		Group A vs. Group B; Timepoint 1\
+			 p-value = 0.01451\
+		Group A vs. Group B; Timepoint 2\
+			 p-value = 0.0642\
+\
+	(Within-Group comparisons are not significant)\
+	\
+	WITH RESAMPLING\
+	-> alpha$PD_whole_tree IS normally distributed based on Shapiro Wilks (P-value = 0.1818)\
+	Using t-test (at depth = 19490)\
+		Group A vs. Group B; Timepoint 1\
+			 p-value = 0.01266\
+		Group A vs. Group B; Timepoint 2\
+			 p-value = 0.106}

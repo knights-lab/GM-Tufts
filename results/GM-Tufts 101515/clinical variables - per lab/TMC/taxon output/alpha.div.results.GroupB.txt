@@ -1,0 +1,21 @@
+Alpha Diversity at Timepoint 1 and Delta Alpha Diversity associated with Delta Clinical Covariate
+PH 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.617948208229986	0.617948208229986	-4.27575881757745
+delta_alpha_div ~ delta_clinical_var	0.252743053827102	0.505486107654204	-5.70007686712561
+WATER 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.00972832495115443	0.0194566499023089	0.828837332913118
+delta_alpha_div ~ delta_clinical_var	0.0529371141060292	0.0529371141060292	-0.371774034605912
+AERO 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.0577129593982238	0.115425918796448	-3.13957582554314e-07
+delta_alpha_div ~ delta_clinical_var	0.266875856607701	0.266875856607701	-1.09609801617194e-07
+ANAERO 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.691451025551588	0.862900792318349	-1.93826473379434e-10
+delta_alpha_div ~ delta_clinical_var	0.862900792318349	0.862900792318349	-4.94764958859286e-11
+AA_RATIO 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.970979107770919	0.970979107770919	-2.60274084689438
+delta_alpha_div ~ delta_clinical_var	0.678775583722555	0.970979107770919	-17.3425174578356

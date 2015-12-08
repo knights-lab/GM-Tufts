@@ -1,0 +1,13 @@
+Significant Taxon ~ Clinical at Timepoint
+PH 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Oscillospira	0.00542010420681819	0.242464223506612	0.0450169380955605
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus	0.00269322910787145	0.242464223506612	-0.023242820175576
+WATER 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;Other	0.0114276892915907	0.224744556067951	-0.00103515269088398
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__;g__	0.000813732337565359	0.0741320225892874	-0.00557233801554319
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Dehalobacteriaceae;g__Dehalobacterium	0.00479732342388135	0.12907715639779	-0.000331361831648068
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;Other	0.00125647495914046	0.0741320225892874	-0.000753935808130977
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__	0.00263228286106127	0.103536459201743	-0.00413299291742515
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Faecalibacterium	0.00546937103380468	0.12907715639779	0.00373347756976107

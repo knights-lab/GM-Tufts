@@ -1,0 +1,4 @@
+Significant Taxon ~ Clinical at Baseline
+OR 
+pvals	adj.pvals	coeffs
+Steroid biosynthesis	0.0038134998764692	0.213555993082275	0.00033048390359563

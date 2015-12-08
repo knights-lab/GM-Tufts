@@ -1,0 +1,11 @@
+delta-taxon-v-group.pdf: butyrate/SCFA producers and health-associated bugs Lachnospira and Roseburia go up in Group B; pro-inflammatory Enterobacteriaceae goes down in Group B.
+
+delta-taxon-v-delta-covariate-within-group.pdf: propionate goes up with SCFA-producers, agreeing with finding above.
+
+taxon-v-covariate-baseline: Lots of results in here - ignore the StoolWt ones? Note Acetate goes up with Blautia; SCFAs are a double-edged sword and are associated with decreased risk of inflammation (and increased Roseburia, Blautia, Lachnospira -bugs thought to protect against inflammation/UC), and increased risk of obesity (and decreased Christensenellaceae, Akkermansia - bugs thought to protect against obesity). These are reflected  in the baseline associations.
+
+mg-v-covariate-baseline.pdf: Plasma_IL_6 goes up with increased Lipid biosynthesis proteins (and therefore increased LPS? - a stretch); Acetate goes down with increased Fatty acid metabolism.
+
+alpha-diversity-by-timepoint-beeswarm.pdf: outliers do not seem to be driving the alpha diversity differences between groups.
+
+delta-taxon-v-delta-covariate-all-groups.pdf: LPS_TNF_alpha goes up with increased Sutterella - maybe Sutterella is producing the LPS? But then we should also see increased Enterobacteriaceae.

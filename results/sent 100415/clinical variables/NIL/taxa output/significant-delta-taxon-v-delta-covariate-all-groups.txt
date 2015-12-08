@@ -1,0 +1,20 @@
+Significant Delta Taxon ~ Delta Clinical for all Groups
+All Groups
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Gemellales;f__Gemellaceae;g__	0.00138699848660016	0.163665821418819	-169.893090705263
+All Groups
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Bacilli;Other;Other;Other	0.00474420679294081	0.0897625649871126	1427.71859790135
+All Groups
+pvals	adj.pvals	coeffs
+k__Archaea;p__Euryarchaeota;c__Methanobacteria;o__Methanobacteriales;f__Methanobacteriaceae;g__Methanobrevibacter	5.25622651815068e-05	0.00103372454856963	149.816027777795
+k__Bacteria;Other;Other;Other;Other;Other	0.000248836602714998	0.00367033989004621	-3771.49785634137
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__[Mogibacteriaceae];g__	0.00422100400752962	0.0332052315258997	660.248008182379
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Coprobacillus	1.54384017723727e-05	0.00060724380304666	887.079094500232
+All Groups
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Porphyromonas	0.00823501325841037	0.202031290612263	-1006.14960539991
+k__Bacteria;p__Synergistetes;c__Synergistia;o__Synergistales;f__Synergistaceae;g__	0.0102727774887591	0.202031290612263	3360.65484946734
+All Groups
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Veillonella	0.0191355950727764	0.194461347059037	-2104206.12021301

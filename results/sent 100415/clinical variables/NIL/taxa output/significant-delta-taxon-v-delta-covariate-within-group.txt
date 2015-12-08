@@ -1,0 +1,46 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+CD8NAIVE 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__	0.0100893361313598	0.238108332700092	58.4013642027006
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;g__Haemophilus	0.00169247319865267	0.149934123513522	442.860624767762
+TOTALNAIVE 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptococcaceae;g__Peptococcus	1.20705244452204e-05	0.000712160942268005	471.291272418262
+AVG24HRD 
+Group A
+pvals	adj.pvals	coeffs
+k__Archaea;p__Euryarchaeota;c__Methanobacteria;o__Methanobacteriales;f__Methanobacteriaceae;g__Methanobrevibacter	0.00852640110375064	0.241239492981062	87.6046981189791
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Collinsella	0.00394124116888863	0.241239492981062	174.055475995952
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__[Tissierellaceae];g__WAL_1855D	0.00550447557762669	0.241239492981062	-1896.4753581812
+LARGSTRESPD 
+Group A
+pvals	adj.pvals	coeffs
+k__Archaea;p__Euryarchaeota;c__Methanobacteria;o__Methanobacteriales;f__Methanobacteriaceae;g__Methanobrevibacter	0.00251530378951456	0.148402923581359	89.309565033762
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Collinsella	0.000985264917059139	0.116261260212978	175.99117752613
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Dehalobacteriaceae;g__Dehalobacterium	0.017488254179652	0.213268485502359	764.000072024601
+LPS_IL_10 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Micrococcaceae;g__Rothia	0.00284254177278231	0.167709964594157	109910.610722241
+k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Bilophila	0.002140572587899	0.167709964594157	6019.49508786658
+LPS_IL_8 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Pasteurellales;f__Pasteurellaceae;Other	0.000668446678512405	0.0394383540322319	5118766.3024199
+PROPIONATE 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__	0.00100120663620316	0.0393807943573245	-32.9352153295795
+ACETTOPROP 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces	0.000188266127162514	0.00370256716752944	6658.12677520609
+k__Bacteria;p__Fusobacteria;c__Fusobacteriia;o__Fusobacteriales;f__Fusobacteriaceae;g__Fusobacterium	4.90820465944157e-09	2.89584074907052e-07	2683.89267230403
+LBP 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces	1.37168777495953e-05	0.00161859157445225	-440.54396815334
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Adlercreutzia	0.00112913048026204	0.0479124917760934	-134.448475202564
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Coprobacillus	0.00121811419769729	0.0479124917760934	-143.450978877138

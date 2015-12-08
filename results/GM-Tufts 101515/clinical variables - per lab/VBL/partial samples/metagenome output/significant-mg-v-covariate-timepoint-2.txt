@@ -1,0 +1,4 @@
+Significant Taxon ~ Clinical at Timepoint
+VITD 
+pvals	adj.pvals	coeffs
+Phenylalanine metabolism	0.00164298165369927	0.092006972607159	0.00010753778517313

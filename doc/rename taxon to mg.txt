@@ -1,0 +1,2 @@
+# this renames all of the "taxon" in the file names to "mg" for /metagenome output folder
+for f in ./*.*; do mv "$f" "`echo $f | sed s/taxon/mg/`"; done

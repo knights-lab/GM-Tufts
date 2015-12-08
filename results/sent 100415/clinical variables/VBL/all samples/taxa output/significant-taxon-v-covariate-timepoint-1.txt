@@ -1,0 +1,5 @@
+Significant Taxon ~ Clinical at Baseline
+OR 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__	0.00192225242137647	0.132342627072778	0.00850418623994169
+k__Bacteria;p__Verrucomicrobia;c__Verrucomicrobiae;o__Verrucomicrobiales;f__Verrucomicrobiaceae;g__Akkermansia	0.00336464306117232	0.132342627072778	0.007238221020025

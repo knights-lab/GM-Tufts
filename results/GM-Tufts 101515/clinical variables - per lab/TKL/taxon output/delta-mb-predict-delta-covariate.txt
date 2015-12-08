@@ -1,0 +1,25 @@
+Use the change in microbiome to predict change in clinical covariate, stratified by treatment group
+SERUMPK Group A R^2: -0.0450796 
+SERUMPK Group B R^2: -0.006922085 
+MK4 Group A R^2: -0.06068911 
+MK4 Group B R^2: -0.3059078 
+PK Group A R^2: -0.08727576 
+PK Group B R^2: -0.110466 
+MK5 Group A R^2: -0.006478791 
+MK5 Group B R^2: -0.2588771 
+MK6 Group A R^2: -0.0368299 
+MK6 Group B R^2: -0.1337097 
+MK7 Group A R^2: 0.2415655 
+MK7 Group B R^2: -0.09710899 
+MK8 Group A R^2: -0.03717331 
+MK8 Group B R^2: -0.1207863 
+MK9 Group A R^2: 0.04934647 
+MK9 Group B R^2: -0.02291777 
+MK10 Group A R^2: -0.03805716 
+MK10 Group B R^2: -0.03590566 
+MK11 Group A R^2: 0.002662045 
+MK11 Group B R^2: -0.09403145 
+MK12 Group A R^2: 0.05091885 
+MK12 Group B R^2: 0.01735572 
+MK13 Group A R^2: -0.1492847 
+MK13 Group B R^2: 0.136477 

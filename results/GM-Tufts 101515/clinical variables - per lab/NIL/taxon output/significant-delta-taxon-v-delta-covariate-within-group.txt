@@ -1,0 +1,68 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+LYMPHO 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Catenibacterium	0.00124538806697208	0.146955791902705	57.5578432171762
+CD8 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptococcaceae;g__rc4-4	0.00917599733206264	0.0888238444283137	262.981781140212
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__	0.00170760570831804	0.0365611315857184	-279.943274807923
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Megasphaera	1.39180413910394e-05	0.000547442961380882	-62.9840847720706
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Mitsuokella	1.37028816856518e-07	1.61694003890691e-05	-162.872198458141
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Phascolarctobacterium	3.92603566418743e-07	2.31636104187058e-05	-95.3898545526487
+CD8CM 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__;g__	0.014627162651911	0.246572170417928	102.735900957657
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Blautia	0.00412960417561214	0.164723537454492	-108.84457601772
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Dorea	0.00730371716160018	0.172367725013764	-233.292482223744
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__[Tissierellaceae];g__Parvimonas	0.00558384872727093	0.164723537454492	-2927.09826297946
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__cc_115	0.0046794110752677	0.164723537454492	-1280.72371426283
+CD8NAIVE 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella	0.000414848364543519	0.0489521070161353	-40.4625236302762
+TOTALNAIVE 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Streptococcaceae;g__Lactococcus	0.0150169462683216	0.132261545617291	380.919526060095
+CONA_25UG_PER_ML 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__	0.0106147611017812	0.246323214137728	-77440.4216644423
+PHA_5UG_PER_ML 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__	0.00168831824267252	0.0996107763176784	-232663.58200536
+ANTI_CD3_10UG_PER_ML 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Atopobium	0.00748640032670499	0.168394040584599	3065849.6769033
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptococcaceae;g__rc4-4	0.0175786733288251	0.229114974366423	856160.095761997
+CELLDEATH12 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__[Ruminococcus]	0.000556980785241233	0.0657237326584654	96.6273250055996
+PLASMA_IL_8 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;g__	0.00154795463046684	0.0608862154650289	-82.6464802617669
+LPS_IFN_G 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__	0.00414035698121374	0.0444147385257474	-70492.3693950297
+LPS_IL_8 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Bacilli;o__Lactobacillales;f__Leuconostocaceae;g__	8.5185335647134e-05	0.0100518696063618	-5110155.97161422
+STOOL_TGF 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Phascolarctobacterium	0.00245116883065063	0.0170139954127515	-3.05540088583177
+PROPIONATE 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Actinomycetales;f__Actinomycetaceae;g__Actinomyces	0.00210391500038743	0.0620654925114291	161.125090912053
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__[Ruminococcus]	0.00196883923177765	0.0620654925114291	22.9613807596188
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Oxalobacteraceae;g__Oxalobacter	0.00739531599749785	0.119196993405304	137.060085801655

@@ -1,0 +1,16 @@
+Significant Taxon ~ Clinical at Timepoint
+OR 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__;g__	0.00435575142344584	0.0985186396614285	0.00913638371041858
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Dorea	0.00957239851456241	0.12289552899818	0.00443298344240997
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__[Mogibacteriaceae];g__	0.000710574688196638	0.0419239066036016	0.00293408074349092
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Catenibacterium	0.0191202920675118	0.16109440511175	0.00603406161274254
+k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Desulfovibrio	0.00522865138236668	0.0985186396614285	0.00507732209183668
+k__Bacteria;p__Proteobacteria;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter	5.98167403351546e-06	0.000705837535954825	0.000516548231494038
+BPSAVG 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Porphyromonadaceae;g__Parabacteroides	0.00543819748818572	0.160426825901479	-0.00239263036082179
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Odoribacteraceae];g__Odoribacter	0.000123744044264638	0.00730089861161364	-0.000666003472657996
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Anaerotruncus	0.00167849375069378	0.0660207541939554	-0.00014774279718338
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Oscillospira	5.80018956429715e-05	0.00684422368587064	-0.00140601426519001
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Holdemania	0.00992874406472658	0.209317273783459	-0.00024394201418071

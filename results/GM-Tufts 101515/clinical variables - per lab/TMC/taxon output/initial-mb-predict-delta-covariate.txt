@@ -1,0 +1,11 @@
+Use the initial microbiome to predict change in clinical covariate, stratified by treatment group
+PH Group A R^2: -0.1540305 
+PH Group B R^2: -0.1293507 
+WATER Group A R^2: -0.1157349 
+WATER Group B R^2: 0.03525013 
+AERO Group A R^2: -0.2736053 
+AERO Group B R^2: -0.1482968 
+ANAERO Group A R^2: -0.1114111 
+ANAERO Group B R^2: -0.1450483 
+AA_RATIO Group A R^2: -0.187626 
+AA_RATIO Group B R^2: -0.2605408 

@@ -1,0 +1,73 @@
+Alpha Diversity at Timepoint 1 and Delta Alpha Diversity associated with Delta Clinical Covariate
+FM 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.412298016085335	0.554965800221493	-0.922684730661038
+delta_alpha_div ~ delta_clinical_var	0.554965800221493	0.554965800221493	-0.486522537704943
+CD4NAIVE 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.0271538887120711	0.0543077774241421	0.288703749093158
+delta_alpha_div ~ delta_clinical_var	0.514858604971874	0.514858604971874	-0.0631175133040573
+STOOLWT 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.145127203480609	0.290254406961218	-0.014063542455907
+delta_alpha_div ~ delta_clinical_var	0.341206582940638	0.341206582940638	0.00674878559128539
+DAILYSTOOLEN 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.0444929189603972	0.0444929189603972	-0.0385697856412978
+delta_alpha_div ~ delta_clinical_var	0.0168374288315645	0.0336748576631289	0.0336547321708473
+ARB 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.00817926229221992	0.0163585245844398	-0.152283406617156
+delta_alpha_div ~ delta_clinical_var	0.458510167584347	0.458510167584347	0.0319299853517297
+CONA_5UG_PER_ML 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.120026827106887	0.240053654213773	0.000326993235301527
+delta_alpha_div ~ delta_clinical_var	0.326347470454542	0.326347470454542	-0.00015177158067141
+LPS_TNF_A 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.681683362096911	0.681683362096911	-0.000125904993936144
+delta_alpha_div ~ delta_clinical_var	0.565483060845464	0.681683362096911	0.000128969380980818
+ISO 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.789176068349031	0.860272626510805	0.00208559365603405
+delta_alpha_div ~ delta_clinical_var	0.860272626510805	0.860272626510805	0.00100447221540912
+TOTALEM 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.490735940902668	0.622262275536692	-0.130067091931456
+delta_alpha_div ~ delta_clinical_var	0.622262275536692	0.622262275536692	-0.0679363787519111
+CD4CD25 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.303652676475159	0.607305352950319	0.393226835408204
+delta_alpha_div ~ delta_clinical_var	0.799849913095925	0.799849913095925	-0.0711439313292113
+TDIAM48HR 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.104431874992964	0.136119972801982	-0.183266935365733
+delta_alpha_div ~ delta_clinical_var	0.136119972801982	0.136119972801982	0.12313810268952
+AR 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.00370424831087227	0.00740849662174454	-0.104269010853294
+delta_alpha_div ~ delta_clinical_var	0.515376496465759	0.515376496465759	0.0175745826660978
+ACETATE 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.982619768924267	0.982619768924267	0.00703988250895217
+delta_alpha_div ~ delta_clinical_var	0.144728997563427	0.289457995126854	-0.334026777895576
+PROPIONATE 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.00931944388357976	0.0186388877671595	2.86920303150398
+delta_alpha_div ~ delta_clinical_var	0.767779231881355	0.767779231881355	0.238320619239843
+BUTYRATE 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.459351934739122	0.459351934739122	-0.2904465264714
+delta_alpha_div ~ delta_clinical_var	0.327487874163758	0.459351934739122	-0.27410243564246
+OGTT_AUCG 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.729601289720418	0.729601289720418	0.000690382482655714
+delta_alpha_div ~ delta_clinical_var	0.638029673896427	0.729601289720418	0.000745558427992458
+ADJREE 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.325979533328142	0.325979533328142	0.0151122352657869
+delta_alpha_div ~ delta_clinical_var	0.0656859734194339	0.131371946838868	-0.0202399560936083
+ACETTOPROP 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.440021245027259	0.880042490054517	-0.0408459484055851
+delta_alpha_div ~ delta_clinical_var	0.986591917634463	0.986591917634463	0.00063624827745178

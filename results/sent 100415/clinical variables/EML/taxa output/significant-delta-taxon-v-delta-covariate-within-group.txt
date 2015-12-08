@@ -1,0 +1,28 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+BF 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__[Mogibacteriaceae];g__	2.94932655483645e-05	0.00348020533470702	155.361896398218
+REE 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Adlercreutzia	2.73775570450551e-05	0.000807637932829126	7838.16758269581
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptococcaceae;g__Peptococcus	1.80174481670432e-05	0.000807637932829126	3631.79790421331
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;Other	0.0187427224928504	0.130096544362138	3561.37525346334
+RQ 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Bifidobacteriales;f__Bifidobacteriaceae;Other	0.00269658555695142	0.106065698573423	3.18785791493652
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__	0.00033637305418782	0.0396920203941627	0.409505653166391
+H 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Bifidobacterium	0.00036369255542092	0.024137903929507	153.309415470774
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;Other;Other	0.00799030818421538	0.235714091434354	114.419745780349
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Bacteroidaceae;g__Bacteroides	0.00601660860620179	0.235714091434354	51.3450921880297
+MEASPREDREE 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;Other	0.0215163993900421	0.13779896063018	3309.89562260404

@@ -1,0 +1,112 @@
+Taxon Differences
+There is no differential taxon although Ruminococcus is ALMOST statistically significant between the two fiber groups at the end of treatment (showing a reduction in Group B).
+	Timepoint 1 vs. Timepoint 2, stratify by Group A,B
+	Group A
+		1. arcsin sqrt transformed + LM while controlling for confounders: NO significant GENUS Level taxa distinguishable between time 1 vs 2
+		2. arcsin sqrt transformed + LM while controlling for confounders: NO significant PHYLUM Level taxa distinguishable between time 1 vs 2
+	Group B
+		1. arcsin sqrt transformed + LM while controlling for confounders: NO significant GENUS Level taxa distinguishable between time 1 vs 2
+		2. arcsin sqrt transformed + LM while controlling for confounders: NO significant PHYLUM Level taxa distinguishable between time 1 vs 2
+
+	Group A vs. Group B (Timepoint 2 only)
+	L6
+		k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Ruminococcus --> p-value = 0.0627, Group B estimate = -0.0756
+	L2 
+		None
+
+	Group A vs. Group B (Timepoint 1 only)
+	L6
+		None
+	L2 
+		None
+
+Alpha Diversity
+- there appear to be differences in alpha diversity based on the starting points of the two groups, although these converge at the end of the treatment
+
+	WITHOUT RESAMPLING
+	-> alpha$PD_whole_tree is NOT normally distributed based on Shapiro Wilks (P-value = 8.8e10-6)	
+	Using Mann Whitney U test
+		Group A vs. Group B; Timepoint 1
+			 p-value = 0.01451
+		Group A vs. Group B; Timepoint 2
+			 p-value = 0.0642
+
+	(Within-Group comparisons are not significant)
+	
+	WITH RESAMPLING
+	-> alpha$PD_whole_tree IS normally distributed based on Shapiro Wilks (P-value = 0.1818)
+	Using t-test (at depth = 19490)
+		Group A vs. Group B; Timepoint 1
+			 p-value = 0.01266
+		Group A vs. Group B; Timepoint 2
+			 p-value = 0.106
+
+Beta Diversity
+- filter each distance matrix since samples in DM is missing from mapping file
+filter_distance_matrix.py -i beta/weighted_unifrac_otu_table_mc2_w_tax.txt -o beta/w_unifrac_filtered.txt --sample_id_fp beta/samples_not_in_map.txt --negate
+
+compare_categories.py --method adonis -i beta/uw_unifrac_filtered.txt -m ../analysis/data/GM_alldata_noIDs_fully_formatted.txt -c Group -o adonis_output -n 99
+
+(Start with OTU table that has already been rarefied)
+beta_diversity.py -i otu_table_mc2_w_tax_s18_subsampled_19490.biom -o bdivplots --metrics unweighted_unifrac  -t rep_set.tre
+
+mv bdivplots/unweighted_unifrac_otu_table_mc2_w_tax_s18_subsampled_19490.txt bdivplots/unweighted_unif
+
+principal_coordinates.py -i bdivplots/unweighted_unifrac_dm.txt -o bdivplots/unweighted_unifrac_pc.txt
+
+make_emperor.py -i bdivplots/unweighted_unifrac_pc.txt -o bdivplots/unweighted_unifrac_emperor_pcoa_plot/ -m ../analysis/data/GM_alldata_noIDs_fully_formatted.txt --ignore_missing_samples
+
+PCOA Plots can be found here: /Users/pvangay/Copy/UMN/KnightsLab/Gen\ Mills\ -\ Tufts/otus-smr/bdivplots 
+
+Adonis Output
+- It appears that using unweighted unifrac, there is a significant difference between Group A and Group B at time point 1, and almost at timepoint 2
+	Time 1 Unweighted Unifrac P-value = 0.05
+	Time 2 Unweighted Unifrac P-value = 0.07
+	Time 1 Weighted Unifrac P-value = 0.39
+	Time 2 Weighted Unifrac P-value = 0.25
+
+
+PROBLEMS
+MISSING THESE SAMPLES FROM MAPPING FILE!
+"Sample.66.1", "Sample.25.1", "Sample.105.2", "Sample.13.2", "Sample.13.1", "Sample.30.1", "Sample.30.2", "Sample.39.2", "Sample.87.2", "Sample.87.1", "Sample.6.2", "Sample.6.1", "Sample.39.1", "Sample.99.2", "Sample.99.1", "Sample.66.2", "Sample.25.2", "Sample.76.1", "Sample.105.1", "Sample.76.2"
+
+Predictive Modeling of Clinical Covariates
+- See how well MB can predict changes in glucose tolerance, blood pressure, or BMI before and after Fiber Intervention
+
+PROBLEMS: Could not find ACETATE_1, BUTYRATE_1, ADJREE in mapping file
+
+>> Results in clinical.var.output.xlsx
+
+Statisical analysis of associations between taxa and metadata
+taxa ~ group*clinical.covariate + controls
+
+L6
+"StoolWt"                                                                     Unassigned;Other;Other;Other;Other;Other 0.06498783 
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Aeromonadales;f__Succinivibrionaceae;g__Succinivibrio 0.06498783 
+
+L2
+"Tdiam24hr"
+Unassigned;Other 
+      0.03551219 
+"StoolWt"
+Unassigned;Other 0.02273222
+k__Bacteria;p__Proteobacteria 0.09796699 
+
+
+TODO
+* for all results: UNCORRECTED P-VALUES, COEFFICIENTS
+XXX 1.) Redo taxon associations using Delta Taxa Abundances with Time 2 values for everything else
+2.) Redo Adonis while controlling for confounders
+XXX3.) Taxon and Clinical Vars (Association Test)
+* Add new column AR as sum of ARA_1	ARA_2	ARB_1	ARB_2	ARC_1	ARC_2
+* See if we can still do OGTT_AUCG
+XXX	- Delta clinical var ~ (Delta Taxon) * Group
+		- Look at interaction term, and Delta taxon term
+XXX	- Delta clinical var ~ (Delta Taxon) [stratified by Group]
+		- Look at Delta taxon term
+4.) Redo everything with PICRUST
+5.)
+XXX--> time 1 alpha div ~ delta clinical covariate
+XXX--> delta alpha div ~ delta clinical covariate
+XXX--> time 1 microbiome ~ time 1 clinical covariate (association test, then RF)
+

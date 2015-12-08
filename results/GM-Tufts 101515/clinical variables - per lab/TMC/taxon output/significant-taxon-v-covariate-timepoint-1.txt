@@ -1,0 +1,9 @@
+Significant Taxon ~ Clinical at Timepoint
+PH 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__Christensenella	0.00330160583973423	0.129863163029546	0.00423604976147542
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Anaerostipes	0.00173610529812453	0.102430212589347	0.0311861696481706
+WATER 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__Christensenella	0.00262089389473506	0.205728278136688	-0.000152031578082062
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Oscillospira	0.00348691996841844	0.205728278136688	-0.00138874124310128

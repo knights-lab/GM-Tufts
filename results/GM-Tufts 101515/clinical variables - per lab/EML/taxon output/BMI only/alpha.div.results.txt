@@ -1,0 +1,8 @@
+BMI 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.817839181473415	0.941770555477359	0.833369228872291
+delta_alpha_div ~ delta_clinical_var	0.941770555477359	0.941770555477359	-0.350049616087636
+WT 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.80851582626072	0.94645210591724	0.294140258977989
+delta_alpha_div ~ delta_clinical_var	0.94645210591724	0.94645210591724	-0.107971838671199

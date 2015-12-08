@@ -1,0 +1,7 @@
+Use the initial microbiome to predict change in clinical covariate, stratified by treatment group
+FM Group A R^2: -0.0459865 
+FM Group B R^2: -0.0599199 
+CD4Naive Group A R^2: 0.02125505 
+CD4Naive Group B R^2: -0.3037224 
+StoolWt Group A R^2: 0.004670086 
+StoolWt Group B R^2: -0.04270691 

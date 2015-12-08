@@ -1,0 +1,11 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+DGCRE 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Mitsuokella	0.00121500586877383	0.0358426731288279	-1827.23892372233
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;Other;Other	0.000286464267852088	0.0263527776534876	-15084.4772351853
+HDL 
+Group B
+pvals	adj.pvals	coeffs
+k__Archaea;p__Euryarchaeota;c__Methanobacteria;o__Methanobacteriales;f__Methanobacteriaceae;g__Methanobrevibacter	0.000186957746914142	0.0220610141358688	-105.430608273134
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;Other	0.0156538487383331	0.205239350124812	-297.627049813537

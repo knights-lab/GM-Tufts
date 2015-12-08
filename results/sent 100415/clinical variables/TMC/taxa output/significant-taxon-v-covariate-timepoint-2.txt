@@ -1,0 +1,4 @@
+Significant Taxon ~ Clinical
+AERO 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Dialister	0.000611992937361872	0.0722151666087009	3.13878239093201e-09

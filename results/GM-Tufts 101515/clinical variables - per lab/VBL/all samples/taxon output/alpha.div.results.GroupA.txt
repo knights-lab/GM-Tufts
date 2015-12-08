@@ -1,0 +1,77 @@
+Alpha Diversity at Timepoint 1 and Delta Alpha Diversity associated with Delta Clinical Covariate
+ISO 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.141744787718463	0.283489575436925	0.0159798916909385
+delta_alpha_div ~ delta_clinical_var	0.629985084567597	0.629985084567597	0.00533671231718445
+OR 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.804409337419812	0.804409337419812	0.327910426605924
+delta_alpha_div ~ delta_clinical_var	0.663457452778386	0.804409337419812	-0.577989691842693
+DG 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.970765711331667	0.970765711331667	-0.000504400787041758
+delta_alpha_div ~ delta_clinical_var	0.501005072707569	0.970765711331667	-0.00926815802438194
+ARA 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.766910076509622	0.787479663963851	0.122326836925298
+delta_alpha_div ~ delta_clinical_var	0.787479663963851	0.787479663963851	0.111721384996209
+ARC 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.333604032119605	0.66720806423921	-0.99311652914412
+delta_alpha_div ~ delta_clinical_var	0.836122033204808	0.836122033204808	-0.214764921747423
+CRE 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.453559072527668	0.453559072527668	0.0234111441629433
+delta_alpha_div ~ delta_clinical_var	0.404209462217815	0.453559072527668	-0.0261353341903666
+ABTS 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.546517315241943	0.546517315241943	0.0719698790259451
+delta_alpha_div ~ delta_clinical_var	0.131823875874743	0.263647751749486	-0.166758915170428
+ISOCRE 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.706933302091873	0.706933302091873	-3.70937122701606
+delta_alpha_div ~ delta_clinical_var	0.222641777130379	0.445283554260759	11.9606025712245
+DGCRE 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.115498961380793	0.230997922761587	-0.0574125731657546
+delta_alpha_div ~ delta_clinical_var	0.312990331889981	0.312990331889981	-0.0373566661891494
+VITD 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.869725742819248	0.869725742819248	-0.10274744989156
+delta_alpha_div ~ delta_clinical_var	0.254332245298658	0.508664490597316	0.679105588610808
+CRP 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.527763135138482	0.689011735063251	-1.17823039107339
+delta_alpha_div ~ delta_clinical_var	0.689011735063251	0.689011735063251	-0.751159296341976
+HBA 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.804063180410407	0.804063180410407	-1.69071013489439
+delta_alpha_div ~ delta_clinical_var	0.441483630605316	0.804063180410407	5.23610747333916
+TOTCHOL 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.439636109519933	0.529768863619048	-0.0741406544999578
+delta_alpha_div ~ delta_clinical_var	0.529768863619048	0.529768863619048	0.0606211862052593
+TRIG 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.768307770963757	0.768307770963757	0.0196413472193277
+delta_alpha_div ~ delta_clinical_var	0.135836506335676	0.271673012671351	0.0982748526035797
+HDL 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.739617233802645	0.739617233802645	0.148233581604949
+delta_alpha_div ~ delta_clinical_var	0.21199630883473	0.423992617669461	-0.552941229111529
+LDL 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.241896324912254	0.483792649824508	-0.139275070599557
+delta_alpha_div ~ delta_clinical_var	0.555431641946377	0.555431641946377	0.0710001925213344
+VLDL 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.763350513614965	0.763350513614965	0.0998584463240537
+delta_alpha_div ~ delta_clinical_var	0.140132138726928	0.280264277453856	0.483744015442223
+BPSAVG 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.260400886713928	0.260400886713928	-0.304708887561066
+delta_alpha_div ~ delta_clinical_var	0.213139767304121	0.260400886713928	-0.337741823007475
+BPDAVG 
+pvals	adj.pvals	coeffs
+alpha_div1 ~ delta_clinical_var	0.200014088046991	0.400028176093982	-0.507399889023026
+delta_alpha_div ~ delta_clinical_var	0.514221076903624	0.514221076903624	-0.261679529757515

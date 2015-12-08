@@ -1,0 +1,5 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+WATER 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Tenericutes;c__Mollicutes;o__RF39;f__;g__	0.00620956569722627	0.244242917424233	-83.5176697746639
