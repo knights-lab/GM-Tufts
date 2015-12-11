@@ -8,7 +8,6 @@
 # returns otu, map, and kegg vector containing kegg descriptions (named by whatever KEGG level was passed in)
 load.data<-function(mapfile, otufile, minOTUInSamples=.001, minPrevalence = .10, normalize=TRUE)
 {
-	source("/Users/pvangay/Copy/UMN/Rscripts/collapse-features.r")
 	require(biom)
 	
 	map <- read.table(mapfile,sep='\t',head=T,row=1,comment='')

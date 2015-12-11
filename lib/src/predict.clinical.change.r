@@ -1,8 +1,6 @@
 # Use the microbiome to predict the change in a clinical covariate (stratified by Treatment Group)
 predict.clinical.change <- function(map_delta, otu, clinical.vars, n.iterations=100, otu.delta=TRUE)
 {
-	source('/Users/pvangay/Copy/UMN/Rscripts/rf.cross.validation.classification.r')
-	
 	if(otu.delta == FALSE)
 	{
 		outputfile="initial-mb-predict-delta-covariate.txt"

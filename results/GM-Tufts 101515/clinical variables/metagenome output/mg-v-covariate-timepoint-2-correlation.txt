@@ -1,0 +1,1062 @@
+FM 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	-0.0378305904621694
+Amino acid related enzymes	1	0.168988905831011
+Amino sugar and nucleotide sugar metabolism	1	0.0305221094694779
+Arginine and proline metabolism	1	-0.171197223828803
+Ascorbate and aldarate metabolism	1	0.0080182974919817
+Biosynthesis of unsaturated fatty acids	1	0.0246332614753667
+Butanoate metabolism	1	-0.11336032388664
+Valine, leucine and isoleucine biosynthesis	1	-0.226037120773963
+Steroid biosynthesis	1	-0.0551882850002915
+Cyanoamino acid metabolism	1	-0.0759766549240233
+Cysteine and methionine metabolism	1	0.22233030127767
+D-Alanine metabolism	1	0.0704558599295441
+D-Arginine and D-ornithine metabolism	1	0.00730848099269152
+D-Glutamine and D-glutamate metabolism	1	0.216678058783322
+Ether lipid metabolism	1	-0.0307061359692939
+Fatty acid biosynthesis	1	-0.240943267259057
+Fatty acid metabolism	1	-0.153872443346128
+Fructose and mannose metabolism	1	-0.125453493874547
+Galactose metabolism	1	-0.120221883379778
+Glycosyltransferases	1	0.189678742310321
+Glycerolipid metabolism	1	-0.173116357326884
+Glycerophospholipid metabolism	1	-0.118775960881224
+Glycine, serine and threonine metabolism	1	0.165913034334087
+Glycolysis / Gluconeogenesis	1	-0.161917030338083
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	-0.0962984384037016
+Glyoxylate and dicarboxylate metabolism	1	-0.193148956306851
+Histidine metabolism	1	-0.137756979862243
+Inositol phosphate metabolism	1	-0.0634365634365634
+Lipid biosynthesis proteins	1	-0.104921394395079
+Lipopolysaccharide biosynthesis proteins	1	0.170908039329092
+Lysine biosynthesis	1	-0.161338661338661
+Lysine degradation	1	-0.0608864819391135
+N-Glycan biosynthesis	1	0.232372890267627
+Other glycan degradation	1	-0.013171039486829
+Pentose and glucuronate interconversions	1	-0.169803880330196
+Pentose phosphate pathway	1	-0.139676113360324
+Peptidoglycan biosynthesis	1	0.111020558388979
+Phenylalanine metabolism	1	-0.121825542878174
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	-0.0874125874125874
+Phosphonate and phosphinate metabolism	1	-0.202113675797886
+Primary bile acid biosynthesis	1	-0.187812187812188
+Propanoate metabolism	1	-0.254561228245439
+Purine metabolism	1	0.309506283190494
+Pyrimidine metabolism	1	0.262894999737105
+Pyruvate metabolism	1	-0.152163625847836
+Selenocompound metabolism	1	0.0931174089068826
+Starch and sucrose metabolism	1	-0.211735632788264
+Steroid hormone biosynthesis	1	0.0255271044744729
+Synthesis and degradation of ketone bodies	1	0.030785004469215
+Taurine and hypotaurine metabolism	1	0.171328671328671
+Tryptophan metabolism	1	0.0585204269414796
+Tyrosine metabolism	1	-0.00344392449655608
+Valine, leucine and isoleucine degradation	1	0.101635206898365
+Various types of N-glycan biosynthesis	1	-0.0364357151803718
+alpha-Linolenic acid metabolism	1	0.0643041169356959
+beta-Alanine metabolism	1	0.156659130343341
+CD4NAIVE 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	-0.11361663442941
+Amino acid related enzymes	1	0.141832821827113
+Amino sugar and nucleotide sugar metabolism	1	-0.152413892101251
+Arginine and proline metabolism	1	-0.0316201751215529
+Ascorbate and aldarate metabolism	1	0.030827278382664
+Biosynthesis of unsaturated fatty acids	1	-0.0992898105956933
+Butanoate metabolism	1	0.058223227774619
+Valine, leucine and isoleucine biosynthesis	1	0.117116316587265
+Steroid biosynthesis	1	-0.175757181409652
+Cyanoamino acid metabolism	1	-0.073233583279792
+Cysteine and methionine metabolism	1	0.176733948971654
+D-Alanine metabolism	1	-0.013178490625671
+D-Arginine and D-ornithine metabolism	1	-0.165961489829508
+D-Glutamine and D-glutamate metabolism	1	-0.059371560982665
+Ether lipid metabolism	1	0.297117546948478
+Fatty acid biosynthesis	1	0.0330145797313231
+Fatty acid metabolism	1	0.040109638481036
+Fructose and mannose metabolism	1	0.0262749574507673
+Galactose metabolism	1	-0.0682848139784508
+Glycosyltransferases	1	-0.23717181936179
+Glycerolipid metabolism	1	0.128298894732284
+Glycerophospholipid metabolism	1	0.16654932706696
+Glycine, serine and threonine metabolism	1	-0.0331512860656143
+Glycolysis / Gluconeogenesis	1	0.0339988653382196
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	-0.0562409859273967
+Glyoxylate and dicarboxylate metabolism	1	-0.0662068776972247
+Histidine metabolism	1	-0.0139167048308434
+Inositol phosphate metabolism	1	-0.139713873645599
+Lipid biosynthesis proteins	1	-0.155667502857381
+Lipopolysaccharide biosynthesis proteins	1	-0.231867613591292
+Lysine biosynthesis	1	0.253344178708439
+Lysine degradation	1	0.0411349359882199
+N-Glycan biosynthesis	1	-0.179345039956616
+Other glycan degradation	1	-0.19294732021859
+Pentose and glucuronate interconversions	1	-0.136651651757476
+Pentose phosphate pathway	1	0.0460290227558446
+Peptidoglycan biosynthesis	1	0.13643292162261
+Phenylalanine metabolism	1	-0.184594563193398
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	0.239482156411312
+Phosphonate and phosphinate metabolism	1	-0.176187123634489
+Primary bile acid biosynthesis	1	-0.0813265982698306
+Propanoate metabolism	1	0.119508677437361
+Purine metabolism	1	0.179222004255754
+Pyrimidine metabolism	1	0.151826054863799
+Pyruvate metabolism	1	0.00582368984080481
+Selenocompound metabolism	1	0.049173268444542
+Starch and sucrose metabolism	1	-0.0148052960037362
+Steroid hormone biosynthesis	1	-0.200712240006329
+Synthesis and degradation of ketone bodies	1	0.240343406317346
+Taurine and hypotaurine metabolism	1	-0.171320378133723
+Tryptophan metabolism	1	0.117362387988989
+Tyrosine metabolism	1	0.0858242366680108
+Valine, leucine and isoleucine degradation	1	-0.182092837275869
+Various types of N-glycan biosynthesis	1	-0.0845581080262134
+alpha-Linolenic acid metabolism	1	-0.142406988431136
+beta-Alanine metabolism	1	-0.0501302127845804
+STOOLWT 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	0.00941164099058836
+Amino acid related enzymes	1	0.0400651979599348
+Amino sugar and nucleotide sugar metabolism	1	0.0928282244071718
+Arginine and proline metabolism	1	-0.086361007413639
+Ascorbate and aldarate metabolism	1	-0.111362321888638
+Biosynthesis of unsaturated fatty acids	1	-0.0979020979020979
+Butanoate metabolism	1	-0.223092696776907
+Valine, leucine and isoleucine biosynthesis	1	-0.114622219885378
+Steroid biosynthesis	1	-0.214023842194475
+Cyanoamino acid metabolism	1	0.0536831589463168
+Cysteine and methionine metabolism	1	0.0129081444870919
+D-Alanine metabolism	1	-0.098164992901835
+D-Arginine and D-ornithine metabolism	1	0.062569009937431
+D-Glutamine and D-glutamate metabolism	1	0.0371470634628529
+Ether lipid metabolism	1	0.0850728219149272
+Fatty acid biosynthesis	1	-0.166990903833009
+Fatty acid metabolism	1	-0.237972553762027
+Fructose and mannose metabolism	1	-0.0837583469162416
+Galactose metabolism	1	0.00709816499290184
+Glycosyltransferases	1	0.13568010936432
+Glycerolipid metabolism	1	-0.198485724801514
+Glycerophospholipid metabolism	1	-0.075556022924444
+Glycine, serine and threonine metabolism	1	0.303906619696093
+Glycolysis / Gluconeogenesis	1	-0.273437089226563
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	-0.0931962774068037
+Glyoxylate and dicarboxylate metabolism	1	0.0938272254061728
+Histidine metabolism	1	-0.274278353225722
+Inositol phosphate metabolism	1	-0.088359009411641
+Lipid biosynthesis proteins	1	-0.292102634207897
+Lipopolysaccharide biosynthesis proteins	1	0.0512119459487881
+Lysine biosynthesis	1	-5.2578999947421e-05
+Lysine degradation	1	-0.226930963773069
+N-Glycan biosynthesis	1	0.0760555234239445
+Other glycan degradation	1	0.0498711814501288
+Pentose and glucuronate interconversions	1	-0.0849150849150849
+Pentose phosphate pathway	1	-0.089988958410011
+Peptidoglycan biosynthesis	1	-0.0816288974183711
+Phenylalanine metabolism	1	-0.196514012303486
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	-0.0224512329775488
+Phosphonate and phosphinate metabolism	1	-0.225984541774015
+Primary bile acid biosynthesis	1	0.0221357589778642
+Propanoate metabolism	1	-0.185525001314475
+Purine metabolism	1	0.072374993427625
+Pyrimidine metabolism	1	-0.0984804669015195
+Pyruvate metabolism	1	-0.237814816762185
+Selenocompound metabolism	1	0.298438403701562
+Starch and sucrose metabolism	1	-0.0739260739260739
+Steroid hormone biosynthesis	1	-0.0220831799779168
+Synthesis and degradation of ketone bodies	1	0.0704821494295178
+Taurine and hypotaurine metabolism	1	-0.102108417897892
+Tryptophan metabolism	1	-0.238077711761922
+Tyrosine metabolism	1	-0.303801461696199
+Valine, leucine and isoleucine degradation	1	0.0105683789894316
+Various types of N-glycan biosynthesis	1	-0.351577460658363
+alpha-Linolenic acid metabolism	1	-0.204847783795152
+beta-Alanine metabolism	1	0.311267679688732
+DAILYSTOOLEN 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	-0.135338345864662
+Amino acid related enzymes	1	0.162679425837321
+Amino sugar and nucleotide sugar metabolism	1	-0.031742993848257
+Arginine and proline metabolism	1	-0.205167464114833
+Ascorbate and aldarate metabolism	1	-0.213615857826384
+Biosynthesis of unsaturated fatty acids	1	0.0284073820915926
+Butanoate metabolism	1	-0.184771018455229
+Valine, leucine and isoleucine biosynthesis	1	-0.145536568694463
+Steroid biosynthesis	1	-0.165056147970349
+Cyanoamino acid metabolism	1	-0.0978810663021189
+Cysteine and methionine metabolism	1	0.103595352016405
+D-Alanine metabolism	1	0.0523581681476418
+D-Arginine and D-ornithine metabolism	1	0.264552289815448
+D-Glutamine and D-glutamate metabolism	1	0.1238004101162
+Ether lipid metabolism	1	-0.0422966507177033
+Fatty acid biosynthesis	1	-0.140888585099111
+Fatty acid metabolism	1	-0.119562542720437
+Fructose and mannose metabolism	1	-0.202296650717703
+Galactose metabolism	1	-0.140642515379357
+Glycosyltransferases	1	0.138892686261107
+Glycerolipid metabolism	1	-0.20431989063568
+Glycerophospholipid metabolism	1	-0.132686261107314
+Glycine, serine and threonine metabolism	1	0.306165413533835
+Glycolysis / Gluconeogenesis	1	-0.255994531784005
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	-0.163144224196856
+Glyoxylate and dicarboxylate metabolism	1	-0.048174982911825
+Histidine metabolism	0.64546152595413	-0.382911825017088
+Inositol phosphate metabolism	1	-0.195707450444293
+Lipid biosynthesis proteins	1	-0.230977443609023
+Lipopolysaccharide biosynthesis proteins	1	0.058755980861244
+Lysine biosynthesis	1	-0.0649624060150376
+Lysine degradation	1	-0.143732057416268
+N-Glycan biosynthesis	1	0.0875187969924812
+Other glycan degradation	1	-0.0660833902939166
+Pentose and glucuronate interconversions	1	-0.239535201640465
+Pentose phosphate pathway	1	-0.168202323991798
+Peptidoglycan biosynthesis	1	0.0269036226930964
+Phenylalanine metabolism	1	-0.249186602870813
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	-0.0502255639097744
+Phosphonate and phosphinate metabolism	1	-0.277156527682843
+Primary bile acid biosynthesis	1	-0.139220779220779
+Propanoate metabolism	1	-0.104771018455229
+Purine metabolism	1	0.163554340396446
+Pyrimidine metabolism	1	0.0251264524948735
+Pyruvate metabolism	1	-0.272836637047163
+Selenocompound metabolism	1	0.29676008202324
+Starch and sucrose metabolism	1	-0.240656185919344
+Steroid hormone biosynthesis	1	-0.0912918660287081
+Synthesis and degradation of ketone bodies	1	0.185126452494874
+Taurine and hypotaurine metabolism	1	-0.118195488721805
+Tryptophan metabolism	1	-0.092904989747095
+Tyrosine metabolism	1	-0.230922761449077
+Valine, leucine and isoleucine degradation	1	0.0927409432672591
+Various types of N-glycan biosynthesis	1	-0.200151581503803
+alpha-Linolenic acid metabolism	1	-0.199261790840738
+beta-Alanine metabolism	1	0.293342447026658
+ARB 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	0.164271020240024
+Amino acid related enzymes	1	-0.0699962537231436
+Amino sugar and nucleotide sugar metabolism	1	0.161668342636797
+Arginine and proline metabolism	1	0.0169831286028735
+Ascorbate and aldarate metabolism	1	-0.0413799449240293
+Biosynthesis of unsaturated fatty acids	1	-0.198237277445771
+Butanoate metabolism	1	0.0015905252019719
+Valine, leucine and isoleucine biosynthesis	1	-0.209646995423553
+Steroid biosynthesis	1	-0.213871090619431
+Cyanoamino acid metabolism	1	0.223593666822662
+Cysteine and methionine metabolism	1	-0.0175483565672106
+D-Alanine metabolism	1	-0.0739002701279837
+D-Arginine and D-ornithine metabolism	1	0.177336987601677
+D-Glutamine and D-glutamate metabolism	1	0.208726856876957
+Ether lipid metabolism	1	-0.087794362181573
+Fatty acid biosynthesis	1	-0.0138678023808294
+Fatty acid metabolism	1	-0.0744917877650807
+Fructose and mannose metabolism	1	-0.114149759123339
+Galactose metabolism	1	0.160182976125864
+Glycosyltransferases	1	0.168201326317624
+Glycerolipid metabolism	1	-0.208358801458319
+Glycerophospholipid metabolism	1	-0.129029713905423
+Glycine, serine and threonine metabolism	1	0.22979802959399
+Glycolysis / Gluconeogenesis	1	-0.173222653814758
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	0.0363849070996547
+Glyoxylate and dicarboxylate metabolism	1	0.10410710412907
+Histidine metabolism	1	-0.073847690782464
+Inositol phosphate metabolism	1	0.0873080032355155
+Lipid biosynthesis proteins	1	-0.00289186400358528
+Lipopolysaccharide biosynthesis proteins	1	0.17480003418035
+Lysine biosynthesis	1	-0.0945639529172385
+Lysine degradation	1	-0.0653824161537871
+N-Glycan biosynthesis	1	0.0730852902724279
+Other glycan degradation	1	0.22578885449811
+Pentose and glucuronate interconversions	1	0.0819711996652626
+Pentose phosphate pathway	1	-0.11981518360309
+Peptidoglycan biosynthesis	1	-0.171553259594507
+Phenylalanine metabolism	1	0.00935912350251235
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	-0.128517065286606
+Phosphonate and phosphinate metabolism	1	0.0542355949036039
+Primary bile acid biosynthesis	1	0.105329573912404
+Propanoate metabolism	1	-0.0950108773541562
+Purine metabolism	1	0.0158921071833391
+Pyrimidine metabolism	1	-0.0769367273317483
+Pyruvate metabolism	1	-0.145526483562239
+Selenocompound metabolism	1	0.00207688414802943
+Starch and sucrose metabolism	1	0.0278276186163183
+Steroid hormone biosynthesis	1	0.0744654980923209
+Synthesis and degradation of ketone bodies	1	-0.0125533187428361
+Taurine and hypotaurine metabolism	1	0.0991252111410753
+Tryptophan metabolism	1	-0.136311953259906
+Tyrosine metabolism	1	-0.258164586501886
+Valine, leucine and isoleucine degradation	1	0.160629900562782
+Various types of N-glycan biosynthesis	1	-0.150937301696108
+alpha-Linolenic acid metabolism	1	0.00138020781989297
+beta-Alanine metabolism	1	0.102976648200396
+CONA_5UG_PER_ML 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	-0.0562997042441016
+Amino acid related enzymes	1	0.00591521524862146
+Amino sugar and nucleotide sugar metabolism	1	0.113808741383477
+Arginine and proline metabolism	1	0.0200591521542141
+Ascorbate and aldarate metabolism	1	-0.057706210980996
+Biosynthesis of unsaturated fatty acids	1	-0.0356227407194759
+Butanoate metabolism	1	0.00151166611909215
+Valine, leucine and isoleucine biosynthesis	1	-0.0934078212371202
+Steroid biosynthesis	1	0.00378025284117724
+Cyanoamino acid metabolism	1	-0.0558396319469866
+Cysteine and methionine metabolism	1	0.0703516266902712
+D-Alanine metabolism	1	0.0360039434799426
+D-Arginine and D-ornithine metabolism	1	0.156713769320145
+D-Glutamine and D-glutamate metabolism	1	0.13205389419478
+Ether lipid metabolism	1	0.026092671707808
+Fatty acid biosynthesis	1	-0.142753861333398
+Fatty acid metabolism	1	-0.0331252053922802
+Fructose and mannose metabolism	1	-0.0829970423995464
+Galactose metabolism	1	-0.0428524482455688
+Glycosyltransferases	1	0.0773841603747434
+Glycerolipid metabolism	1	-0.0542490962912461
+Glycerophospholipid metabolism	1	-0.161866579047833
+Glycine, serine and threonine metabolism	1	-0.00775550443708147
+Glycolysis / Gluconeogenesis	1	-0.00266841932326701
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	-0.0272231350664334
+Glyoxylate and dicarboxylate metabolism	1	0.000854419980356433
+Histidine metabolism	1	-0.103003614862662
+Inositol phosphate metabolism	1	0.0114623726595509
+Lipid biosynthesis proteins	1	-0.0834702596194362
+Lipopolysaccharide biosynthesis proteins	1	0.0797371015514173
+Lysine biosynthesis	1	-0.104423266522331
+Lysine degradation	1	-0.0381334209694463
+N-Glycan biosynthesis	1	0.136115675332167
+Other glycan degradation	1	0.0329280315506595
+Pentose and glucuronate interconversions	1	0.0142096615194662
+Pentose phosphate pathway	1	-0.146710483088587
+Peptidoglycan biosynthesis	1	0.0144199802838616
+Phenylalanine metabolism	1	-0.0826552744074039
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	-0.0809858692150151
+Phosphonate and phosphinate metabolism	1	0.102477817951673
+Primary bile acid biosynthesis	1	-0.0922116332646212
+Propanoate metabolism	1	-0.0130923430836155
+Purine metabolism	1	0.148800525809766
+Pyrimidine metabolism	1	0.149155438724684
+Pyruvate metabolism	1	-0.0978113703666495
+Selenocompound metabolism	1	-0.0322313506435996
+Starch and sucrose metabolism	1	-0.138100558671149
+Steroid hormone biosynthesis	1	-0.0105422280653209
+Synthesis and degradation of ketone bodies	1	-0.138573775891039
+Taurine and hypotaurine metabolism	1	-0.035202103190685
+Tryptophan metabolism	1	-0.0359907985571679
+Tyrosine metabolism	1	-0.0638580348395623
+Valine, leucine and isoleucine degradation	1	0.0713243509756001
+Various types of N-glycan biosynthesis	1	-0.0590184771307603
+alpha-Linolenic acid metabolism	1	-0.117186986536578
+beta-Alanine metabolism	1	-0.118041406516935
+LPS_TNF_A 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	0.0449822213838435
+Amino acid related enzymes	1	0.0951961564178243
+Amino sugar and nucleotide sugar metabolism	1	-0.0800268158342605
+Arginine and proline metabolism	1	0.0431156300815332
+Ascorbate and aldarate metabolism	1	-0.0127769489144056
+Biosynthesis of unsaturated fatty acids	1	-0.102964856838003
+Butanoate metabolism	1	-0.202669751401549
+Valine, leucine and isoleucine biosynthesis	1	0.0391064022843175
+Steroid biosynthesis	1	-0.0640301289838946
+Cyanoamino acid metabolism	1	0.0641476447554519
+Cysteine and methionine metabolism	1	0.0168519017574773
+D-Alanine metabolism	1	0.0291950653692333
+D-Arginine and D-ornithine metabolism	1	0.0312325417907692
+D-Glutamine and D-glutamate metabolism	1	-0.0836679833746826
+Ether lipid metabolism	1	-0.0102793971718777
+Fatty acid biosynthesis	1	-0.0244102820309168
+Fatty acid metabolism	1	-0.0980091883804609
+Fructose and mannose metabolism	1	-0.115439470541471
+Galactose metabolism	1	0.0269078337734447
+Glycosyltransferases	1	-0.043562560393354
+Glycerolipid metabolism	1	0.131844441987128
+Glycerophospholipid metabolism	1	0.222203235029951
+Glycine, serine and threonine metabolism	1	-0.0936713353539652
+Glycolysis / Gluconeogenesis	1	0.0131187191528568
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	0.0766879835047759
+Glyoxylate and dicarboxylate metabolism	1	-0.0443512609436259
+Histidine metabolism	1	-0.00247126172418544
+Inositol phosphate metabolism	1	-0.0534870423176094
+Lipid biosynthesis proteins	1	-0.00834708082371146
+Lipopolysaccharide biosynthesis proteins	1	-0.0228460259395441
+Lysine biosynthesis	1	0.170543348987138
+Lysine degradation	1	-0.119172653146092
+N-Glycan biosynthesis	1	-0.122314310338008
+Other glycan degradation	1	0.028774425075755
+Pentose and glucuronate interconversions	1	-0.00424583796229733
+Pentose phosphate pathway	1	0.0893466273366407
+Peptidoglycan biosynthesis	1	0.0395664776053095
+Phenylalanine metabolism	1	-0.113099658908998
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	0.0830370229344651
+Phosphonate and phosphinate metabolism	1	-0.0332568732031339
+Primary bile acid biosynthesis	1	0.0391326923026599
+Propanoate metabolism	1	0.0206113743804403
+Purine metabolism	1	-0.0093592465298938
+Pyrimidine metabolism	1	0.0137759696114167
+Pyruvate metabolism	1	-0.0836811283838538
+Selenocompound metabolism	1	0.0161946512989174
+Starch and sucrose metabolism	1	0.0810126915221004
+Steroid hormone biosynthesis	1	0.0246468921959984
+Synthesis and degradation of ketone bodies	1	-0.0749002622574928
+Taurine and hypotaurine metabolism	1	-0.0773320889541646
+Tryptophan metabolism	1	-0.0498590197863584
+Tyrosine metabolism	1	-0.0324287376253483
+Valine, leucine and isoleucine degradation	1	-0.059796646719785
+Various types of N-glycan biosynthesis	1	-0.0572378304084347
+alpha-Linolenic acid metabolism	1	0.0986532938298497
+beta-Alanine metabolism	1	-0.0162998113722869
+ISO 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	-0.122351332877649
+Amino acid related enzymes	1	0.142804563857195
+Amino sugar and nucleotide sugar metabolism	1	0.0488721804511278
+Arginine and proline metabolism	1	-0.194516010305484
+Ascorbate and aldarate metabolism	1	0.0390661969609338
+Biosynthesis of unsaturated fatty acids	1	0.118066144381934
+Butanoate metabolism	1	-0.130658814869341
+Valine, leucine and isoleucine biosynthesis	1	-0.180950628319049
+Steroid biosynthesis	1	0.0115550890624851
+Cyanoamino acid metabolism	1	-0.0418003049581997
+Cysteine and methionine metabolism	1	0.100899100899101
+D-Alanine metabolism	1	0.11130974288869
+D-Arginine and D-ornithine metabolism	1	0.115410904884589
+D-Glutamine and D-glutamate metabolism	1	0.122062148377938
+Ether lipid metabolism	1	-0.0243177874756822
+Fatty acid biosynthesis	1	-0.136810557863189
+Fatty acid metabolism	1	-0.11825017088175
+Fructose and mannose metabolism	1	-0.0898575109101425
+Galactose metabolism	1	-0.108286450391714
+Glycosyltransferases	1	0.176323676323676
+Glycerolipid metabolism	1	-0.138992586361007
+Glycerophospholipid metabolism	1	-0.157211209842789
+Glycine, serine and threonine metabolism	1	-0.0311530574688469
+Glycolysis / Gluconeogenesis	1	-0.0506335769493664
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	-0.0493716809506283
+Glyoxylate and dicarboxylate metabolism	1	-0.178558283821442
+Histidine metabolism	1	-0.1263999158736
+Inositol phosphate metabolism	1	-0.0467164414532836
+Lipid biosynthesis proteins	1	-0.00780798149219202
+Lipopolysaccharide biosynthesis proteins	1	0.168384247331616
+Lysine biosynthesis	1	-0.234633787265366
+Lysine degradation	1	-0.0274988169725012
+N-Glycan biosynthesis	1	0.248514643251485
+Other glycan degradation	1	-0.0165623849834376
+Pentose and glucuronate interconversions	1	-0.116041852883958
+Pentose phosphate pathway	1	-0.235711656764288
+Peptidoglycan biosynthesis	1	0.137073452862927
+Phenylalanine metabolism	1	-0.122640517377359
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	-0.141937010358063
+Phosphonate and phosphinate metabolism	1	-0.119012566380987
+Primary bile acid biosynthesis	1	-0.125768967874231
+Propanoate metabolism	1	-0.0666964614333035
+Purine metabolism	1	0.152347652347652
+Pyrimidine metabolism	1	0.170408538829591
+Pyruvate metabolism	1	-0.220963247279037
+Selenocompound metabolism	1	-0.0534465534465534
+Starch and sucrose metabolism	1	-0.0950891214049109
+Steroid hormone biosynthesis	1	0.0689573584310426
+Synthesis and degradation of ketone bodies	1	-0.0925916189074084
+Taurine and hypotaurine metabolism	1	0.151427519848572
+Tryptophan metabolism	1	0.129580945370419
+Tyrosine metabolism	1	0.0600715074399285
+Valine, leucine and isoleucine degradation	1	0.127661811872338
+Various types of N-glycan biosynthesis	1	0.2284845631796
+alpha-Linolenic acid metabolism	1	0.0462432304537568
+beta-Alanine metabolism	1	-0.0199011514800988
+TOTALEM 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	0.0227633162747706
+Amino acid related enzymes	1	-0.0211774035493211
+Amino sugar and nucleotide sugar metabolism	1	0.0479328449605681
+Arginine and proline metabolism	1	0.068057530580065
+Ascorbate and aldarate metabolism	1	0.0192223559653619
+Biosynthesis of unsaturated fatty acids	1	-0.0286421306880747
+Butanoate metabolism	1	0.127624959414405
+Valine, leucine and isoleucine biosynthesis	1	-0.0726648804807242
+Steroid biosynthesis	1	0.0283159345273264
+Cyanoamino acid metabolism	1	0.0347670350070521
+Cysteine and methionine metabolism	1	-0.0659657663818428
+D-Alanine metabolism	1	-0.0288335339480428
+D-Arginine and D-ornithine metabolism	1	0.122511758040973
+D-Glutamine and D-glutamate metabolism	1	0.206018266032744
+Ether lipid metabolism	1	-0.289251340795989
+Fatty acid biosynthesis	1	-0.0197828940838397
+Fatty acid metabolism	1	0.0910395934376562
+Fructose and mannose metabolism	1	-0.0830553431647036
+Galactose metabolism	1	0.0146150060647026
+Glycosyltransferases	1	0.135868971254457
+Glycerolipid metabolism	1	-0.100582413113206
+Glycerophospholipid metabolism	1	-0.166520836172196
+Glycine, serine and threonine metabolism	1	0.0306792082405918
+Glycolysis / Gluconeogenesis	1	-0.0779968284369768
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	-0.0115388822437876
+Glyoxylate and dicarboxylate metabolism	1	-0.0164470086958253
+Histidine metabolism	1	0.00437493165641237
+Inositol phosphate metabolism	1	0.104260090036877
+Lipid biosynthesis proteins	1	0.14381220654313
+Lipopolysaccharide biosynthesis proteins	1	0.153874549352879
+Lysine biosynthesis	1	-0.162542382697146
+Lysine degradation	1	0.0379935471036562
+N-Glycan biosynthesis	1	0.18698731332735
+Other glycan degradation	1	0.093541507478667
+Pentose and glucuronate interconversions	1	-0.00179098764684381
+Pentose phosphate pathway	1	-0.211801378816064
+Peptidoglycan biosynthesis	1	-0.0714754459366371
+Phenylalanine metabolism	1	0.0671552009259299
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	-0.101799190980145
+Phosphonate and phosphinate metabolism	1	0.139314229933881
+Primary bile acid biosynthesis	1	-0.0192086843039356
+Propanoate metabolism	1	0.0739910316390742
+Purine metabolism	1	0.0130154216778268
+Pyrimidine metabolism	1	-0.0122634802993809
+Pyruvate metabolism	1	-0.0761921691287067
+Selenocompound metabolism	1	-0.154626490731325
+Starch and sucrose metabolism	1	-0.0573526196832809
+Steroid hormone biosynthesis	1	0.0886333810266294
+Synthesis and degradation of ketone bodies	1	-0.0708328778496016
+Taurine and hypotaurine metabolism	1	0.047126216936417
+Tryptophan metabolism	1	0.0643388386721144
+Tyrosine metabolism	1	-0.00524991798769485
+Valine, leucine and isoleucine degradation	1	0.190131795455396
+Various types of N-glycan biosynthesis	1	0.0536670007281754
+alpha-Linolenic acid metabolism	1	0.0865963034741124
+beta-Alanine metabolism	1	0.00345893034085103
+CD4CD25 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	0.0259917834825161
+Amino acid related enzymes	1	0.087112573270183
+Amino sugar and nucleotide sugar metabolism	1	-0.112657355923966
+Arginine and proline metabolism	1	0.0341429750652981
+Ascorbate and aldarate metabolism	1	-0.104913723920323
+Biosynthesis of unsaturated fatty acids	1	0.0546261306878374
+Butanoate metabolism	1	-0.0134100248619962
+Valine, leucine and isoleucine biosynthesis	1	0.0633426468481349
+Steroid biosynthesis	1	-0.0058590141840066
+Cyanoamino acid metabolism	1	0.131207890316394
+Cysteine and methionine metabolism	1	-0.00462777328570849
+D-Alanine metabolism	1	-0.00489071494966919
+D-Arginine and D-ornithine metabolism	1	-0.129472475334253
+D-Glutamine and D-glutamate metabolism	1	-0.0961972077600255
+Ether lipid metabolism	1	0.0724535755043735
+Fatty acid biosynthesis	1	0.0633163526817388
+Fatty acid metabolism	1	-0.0713623675989365
+Fructose and mannose metabolism	1	-0.105899755160176
+Galactose metabolism	1	-0.0109646673871616
+Glycosyltransferases	1	-0.0968151206703332
+Glycerolipid metabolism	1	0.0249794580762674
+Glycerophospholipid metabolism	1	0.138491374408106
+Glycine, serine and threonine metabolism	1	0.0246113397467224
+Glycolysis / Gluconeogenesis	1	-0.00243221039163656
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	0.00903204615705037
+Glyoxylate and dicarboxylate metabolism	1	0.0222843060206701
+Histidine metabolism	1	-0.0498931807365446
+Inositol phosphate metabolism	1	-0.0709548080197974
+Lipid biosynthesis proteins	1	-0.029291701365223
+Lipopolysaccharide biosynthesis proteins	1	-0.105465901414641
+Lysine biosynthesis	1	0.129446181167857
+Lysine degradation	1	-0.0638553830928583
+N-Glycan biosynthesis	1	-0.150810191364665
+Other glycan degradation	1	-0.000368118329544993
+Pentose and glucuronate interconversions	1	-0.0803286783399967
+Pentose phosphate pathway	1	0.0342218575644863
+Peptidoglycan biosynthesis	1	0.0117666394622417
+Phenylalanine metabolism	1	0.0114511094654889
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	0.0945669694434691
+Phosphonate and phosphinate metabolism	1	-0.1184552196143
+Primary bile acid biosynthesis	1	0.00992604781451678
+Propanoate metabolism	1	-0.0637239122608779
+Purine metabolism	1	-0.0665899763980497
+Pyrimidine metabolism	1	-0.00838783908034663
+Pyruvate metabolism	1	-0.0394281025109084
+Selenocompound metabolism	1	0.150336896369536
+Starch and sucrose metabolism	1	0.0616598201987864
+Steroid hormone biosynthesis	1	-0.0562826631707899
+Synthesis and degradation of ketone bodies	1	0.129709122831818
+Taurine and hypotaurine metabolism	1	-0.0117140511294496
+Tryptophan metabolism	1	-0.0879671336780553
+Tyrosine metabolism	1	-0.0768315542093193
+Valine, leucine and isoleucine degradation	1	-0.196838129640987
+Various types of N-glycan biosynthesis	1	-0.115962288416362
+alpha-Linolenic acid metabolism	1	-0.0950665586049945
+beta-Alanine metabolism	1	0.0619622031123412
+TDIAM48HR 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	0.0400273527665924
+Amino acid related enzymes	1	0.0225641038827733
+Amino sugar and nucleotide sugar metabolism	1	0.0883829111480993
+Arginine and proline metabolism	1	-0.00858803468992826
+Ascorbate and aldarate metabolism	1	-0.161955565020415
+Biosynthesis of unsaturated fatty acids	1	-0.11736069061937
+Butanoate metabolism	1	0.0149059837771048
+Valine, leucine and isoleucine biosynthesis	1	-0.0944136807313132
+Steroid biosynthesis	1	-0.31641461582552
+Cyanoamino acid metabolism	1	0.0307692325674181
+Cysteine and methionine metabolism	1	-0.0204581208537145
+D-Alanine metabolism	1	0.0903111163889908
+D-Arginine and D-ornithine metabolism	1	0.136150435307207
+D-Glutamine and D-glutamate metabolism	1	0.117497442764114
+Ether lipid metabolism	1	-0.189046164894217
+Fatty acid biosynthesis	1	0.016588035157457
+Fatty acid metabolism	1	-0.0895316291639495
+Fructose and mannose metabolism	1	-0.0547145331121066
+Galactose metabolism	1	0.0125264964585578
+Glycosyltransferases	1	0.0404786348442479
+Glycerolipid metabolism	1	-0.12164103274986
+Glycerophospholipid metabolism	1	-0.239890612310066
+Glycine, serine and threonine metabolism	1	-0.00332307711728116
+Glycolysis / Gluconeogenesis	1	-0.115227357161362
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	0.0246700869118321
+Glyoxylate and dicarboxylate metabolism	1	-0.0500923106197567
+Histidine metabolism	1	-0.0769914574909174
+Inositol phosphate metabolism	1	-0.0501333362631799
+Lipid biosynthesis proteins	1	0.0201299157063287
+Lipopolysaccharide biosynthesis proteins	1	0.0981743647117754
+Lysine biosynthesis	1	-0.139897444073194
+Lysine degradation	1	-0.200054712546115
+N-Glycan biosynthesis	1	-0.00555213707660967
+Other glycan degradation	1	0.078687184085744
+Pentose and glucuronate interconversions	1	0.0100649578531643
+Pentose phosphate pathway	1	-0.126181203955363
+Peptidoglycan biosynthesis	1	0.00913504326890458
+Phenylalanine metabolism	1	0.0355145319900377
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	-0.176752147081724
+Phosphonate and phosphinate metabolism	1	0.0193094028378642
+Primary bile acid biosynthesis	1	-0.0232615398209681
+Propanoate metabolism	1	-0.0132923084691246
+Purine metabolism	1	-0.0756239360434766
+Pyrimidine metabolism	1	0.0504341909816169
+Pyruvate metabolism	1	-0.0888205180112803
+Selenocompound metabolism	1	0.0318769249398452
+Starch and sucrose metabolism	1	-0.0272820528764441
+Steroid hormone biosynthesis	1	0.0245743604105113
+Synthesis and degradation of ketone bodies	1	-0.0997606895908068
+Taurine and hypotaurine metabolism	1	0.00586666700952106
+Tryptophan metabolism	1	-0.25516582687798
+Tyrosine metabolism	1	-0.139774367142925
+Valine, leucine and isoleucine degradation	1	0.0515692337829928
+Various types of N-glycan biosynthesis	1	-0.0961073644082167
+alpha-Linolenic acid metabolism	1	-0.139323085065269
+beta-Alanine metabolism	1	0.034283762687341
+AR 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	0.140017876859982
+Amino acid related enzymes	1	-0.165255796834744
+Amino sugar and nucleotide sugar metabolism	1	0.116252168883748
+Arginine and proline metabolism	1	0.0996372049003628
+Ascorbate and aldarate metabolism	1	0.0643304064356696
+Biosynthesis of unsaturated fatty acids	1	-0.128765970871234
+Butanoate metabolism	1	0.0634891424365109
+Valine, leucine and isoleucine biosynthesis	1	-0.0841526894158473
+Steroid biosynthesis	1	-0.126341896071836
+Cyanoamino acid metabolism	1	0.193438140806562
+Cysteine and methionine metabolism	1	-0.0633051159366949
+D-Alanine metabolism	1	-0.0972711499027289
+D-Arginine and D-ornithine metabolism	1	0.139939008360061
+D-Glutamine and D-glutamate metabolism	1	0.0702455439297544
+Ether lipid metabolism	1	0.0107524054892476
+Fatty acid biosynthesis	1	0.0464272569535727
+Fatty acid metabolism	1	0.0461380724538619
+Fructose and mannose metabolism	1	-0.00688784899311215
+Galactose metabolism	1	0.187102371312898
+Glycosyltransferases	1	0.0896734844103265
+Glycerolipid metabolism	1	-0.0877806404122193
+Glycerophospholipid metabolism	1	-0.0205583889794416
+Glycine, serine and threonine metabolism	1	0.183605867816394
+Glycolysis / Gluconeogenesis	1	-0.0772122614227877
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	0.0207161259792839
+Glyoxylate and dicarboxylate metabolism	1	0.177901046322099
+Histidine metabolism	1	-0.0367001419632999
+Inositol phosphate metabolism	1	0.138992586361007
+Lipid biosynthesis proteins	1	-0.0283663704716336
+Lipopolysaccharide biosynthesis proteins	1	0.0820232399179768
+Lysine biosynthesis	1	0.0164572269835428
+Lysine degradation	1	0.0449813344550187
+N-Glycan biosynthesis	1	-0.00236605499763394
+Other glycan degradation	1	0.196382564803617
+Pentose and glucuronate interconversions	1	0.120195593879804
+Pentose phosphate pathway	1	0.00854408749145591
+Peptidoglycan biosynthesis	1	-0.19448972080551
+Phenylalanine metabolism	1	0.0248961564751038
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	-0.0540249224459751
+Phosphonate and phosphinate metabolism	1	0.105105420894895
+Primary bile acid biosynthesis	1	0.12824018087176
+Propanoate metabolism	1	0.000657237499342763
+Purine metabolism	1	-0.0443503864556496
+Pyrimidine metabolism	1	-0.158499395341501
+Pyruvate metabolism	1	-0.0326252694673747
+Selenocompound metabolism	1	-0.0331247699668752
+Starch and sucrose metabolism	1	0.0581786634418213
+Steroid hormone biosynthesis	1	0.0752142594247857
+Synthesis and degradation of ketone bodies	1	0.0483463904516536
+Taurine and hypotaurine metabolism	1	0.0451653609548346
+Tryptophan metabolism	1	-0.0721383879278616
+Tyrosine metabolism	1	-0.152663126347337
+Valine, leucine and isoleucine degradation	1	0.106840527893159
+Various types of N-glycan biosynthesis	1	-0.238789888592556
+alpha-Linolenic acid metabolism	1	0.0100162994899837
+beta-Alanine metabolism	1	0.0183763604816236
+ACETATE 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	-0.00204836415362731
+Amino acid related enzymes	1	0.129871977240398
+Amino sugar and nucleotide sugar metabolism	1	0.116529160739687
+Arginine and proline metabolism	1	-0.0958748221906116
+Ascorbate and aldarate metabolism	1	-0.0782076813655761
+Biosynthesis of unsaturated fatty acids	1	-0.085149359886202
+Butanoate metabolism	1	-0.138862019914651
+Valine, leucine and isoleucine biosynthesis	1	-0.17547652916074
+Steroid biosynthesis	0.615748101123876	-0.350614820914687
+Cyanoamino acid metabolism	1	-0.106628733997155
+Cysteine and methionine metabolism	1	0.0752773826458037
+D-Alanine metabolism	1	0.0812517780938834
+D-Arginine and D-ornithine metabolism	1	0.152432432432432
+D-Glutamine and D-glutamate metabolism	1	0.155049786628734
+Ether lipid metabolism	1	0.117837837837838
+Fatty acid biosynthesis	1	-0.236386913229018
+Fatty acid metabolism	1	-0.246258890469417
+Fructose and mannose metabolism	1	-0.131891891891892
+Galactose metabolism	1	-0.106657183499289
+Glycosyltransferases	1	0.265462304409673
+Glycerolipid metabolism	1	-0.226714082503556
+Glycerophospholipid metabolism	1	-0.22796586059744
+Glycine, serine and threonine metabolism	1	0.297553342816501
+Glycolysis / Gluconeogenesis	1	-0.263357041251778
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	-0.133456614509246
+Glyoxylate and dicarboxylate metabolism	1	0.0194310099573257
+Histidine metabolism	1	-0.285234708392603
+Inositol phosphate metabolism	1	-0.0116358463726885
+Lipid biosynthesis proteins	1	-0.210583214793741
+Lipopolysaccharide biosynthesis proteins	1	0.183726884779516
+Lysine biosynthesis	1	-0.114964438122333
+Lysine degradation	0.615748101123876	-0.344893314366999
+N-Glycan biosynthesis	1	0.206145092460882
+Other glycan degradation	1	0.0231009957325747
+Pentose and glucuronate interconversions	1	-0.0793456614509246
+Pentose phosphate pathway	1	-0.134423897581792
+Peptidoglycan biosynthesis	1	0.0611664295874822
+Phenylalanine metabolism	1	-0.193371266002845
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	-0.0545661450924609
+Phosphonate and phosphinate metabolism	1	-0.10076813655761
+Primary bile acid biosynthesis	1	-0.0663726884779516
+Propanoate metabolism	1	-0.244950213371266
+Purine metabolism	1	0.207624466571835
+Pyrimidine metabolism	1	0.0807965860597439
+Pyruvate metabolism	1	-0.275561877667141
+Selenocompound metabolism	1	0.193314366998577
+Starch and sucrose metabolism	1	-0.190583214793741
+Steroid hormone biosynthesis	1	-0.00150782361308677
+Synthesis and degradation of ketone bodies	1	-0.19425320056899
+Taurine and hypotaurine metabolism	1	-0.121479374110953
+Tryptophan metabolism	0.615748101123876	-0.358093883357041
+Tyrosine metabolism	1	-0.238463726884779
+Valine, leucine and isoleucine degradation	1	0.0549928876244666
+Various types of N-glycan biosynthesis	0.615748101123876	-0.382945590144294
+alpha-Linolenic acid metabolism	1	-0.144295874822191
+beta-Alanine metabolism	1	0.185490753911807
+PROPIONATE 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	0.204665718349929
+Amino acid related enzymes	1	0.00913229018492176
+Amino sugar and nucleotide sugar metabolism	1	0.273826458036984
+Arginine and proline metabolism	1	0.0854338549075391
+Ascorbate and aldarate metabolism	1	-0.139914651493599
+Biosynthesis of unsaturated fatty acids	1	-0.144551920341394
+Butanoate metabolism	0.499157556588532	-0.344466571834993
+Valine, leucine and isoleucine biosynthesis	1	-0.278918918918919
+Steroid biosynthesis	1	-0.18951799043474
+Cyanoamino acid metabolism	1	0.123954480796586
+Cysteine and methionine metabolism	1	0.0720056899004267
+D-Alanine metabolism	1	0.0204267425320057
+D-Arginine and D-ornithine metabolism	1	0.123641536273115
+D-Glutamine and D-glutamate metabolism	1	0.201792318634424
+Ether lipid metabolism	1	-0.105348506401138
+Fatty acid biosynthesis	1	-0.214139402560455
+Fatty acid metabolism	0.244043874232846	-0.411778093883357
+Fructose and mannose metabolism	1	-0.119857752489331
+Galactose metabolism	1	0.074850640113798
+Glycosyltransferases	0.830769648784989	0.306827880512091
+Glycerolipid metabolism	1	-0.287368421052632
+Glycerophospholipid metabolism	1	-0.11302987197724
+Glycine, serine and threonine metabolism	0.731590185012456	0.320341394025605
+Glycolysis / Gluconeogenesis	0.639841836429172	-0.330241820768137
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	0.144466571834993
+Glyoxylate and dicarboxylate metabolism	1	0.0945376955903272
+Histidine metabolism	1	-0.102361308677098
+Inositol phosphate metabolism	1	-0.0354765291607397
+Lipid biosynthesis proteins	1	-0.121081081081081
+Lipopolysaccharide biosynthesis proteins	1	0.277724039829303
+Lysine biosynthesis	1	-0.165832147937411
+Lysine degradation	0.743299739275852	-0.315078236130868
+N-Glycan biosynthesis	1	0.191209103840683
+Other glycan degradation	1	0.19103840682788
+Pentose and glucuronate interconversions	1	0.0642105263157895
+Pentose phosphate pathway	1	-0.153826458036984
+Peptidoglycan biosynthesis	1	-0.0175817923186344
+Phenylalanine metabolism	1	-0.13172119487909
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	-0.113314366998578
+Phosphonate and phosphinate metabolism	1	-0.0858890469416785
+Primary bile acid biosynthesis	1	0.0735704125177809
+Propanoate metabolism	0.433421331318606	-0.364836415362731
+Purine metabolism	1	0.114992887624467
+Pyrimidine metabolism	1	-0.007425320056899
+Pyruvate metabolism	1	-0.241109530583215
+Selenocompound metabolism	1	0.22221906116643
+Starch and sucrose metabolism	1	0.0510953058321479
+Steroid hormone biosynthesis	1	0.153627311522048
+Synthesis and degradation of ketone bodies	1	-0.242901849217639
+Taurine and hypotaurine metabolism	1	0.129928876244666
+Tryptophan metabolism	0.378377629609386	-0.380796586059744
+Tyrosine metabolism	1	-0.240028449502134
+Valine, leucine and isoleucine degradation	1	0.12122332859175
+Various types of N-glycan biosynthesis	0.499157556588532	-0.344760216510425
+alpha-Linolenic acid metabolism	1	0.0286201991465149
+beta-Alanine metabolism	1	0.255419630156472
+BUTYRATE 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	0.25744137583422
+Amino acid related enzymes	1	-0.0541255627720857
+Amino sugar and nucleotide sugar metabolism	1	0.170769351137684
+Arginine and proline metabolism	1	0.192547599916676
+Ascorbate and aldarate metabolism	1	-0.105207007164874
+Biosynthesis of unsaturated fatty acids	1	-0.314411909054247
+Butanoate metabolism	1	-0.242448381573569
+Valine, leucine and isoleucine biosynthesis	1	-0.0195449469773576
+Steroid biosynthesis	1	-0.264292512892176
+Cyanoamino acid metabolism	1	0.208351410754991
+Cysteine and methionine metabolism	1	-0.0315364974154308
+D-Alanine metabolism	1	-0.176857587896279
+D-Arginine and D-ornithine metabolism	1	-0.0361595743933356
+D-Glutamine and D-glutamate metabolism	1	0.0307114559855277
+Ether lipid metabolism	1	0.0952638354493188
+Fatty acid biosynthesis	1	-0.170399504979452
+Fatty acid metabolism	1	-0.327555672523737
+Fructose and mannose metabolism	1	-0.00150783433740896
+Galactose metabolism	1	0.185321374978905
+Glycosyltransferases	1	0.109218415496472
+Glycerolipid metabolism	1	-0.101224048537756
+Glycerophospholipid metabolism	1	0.0436418466714215
+Glycine, serine and threonine metabolism	1	0.166658368840409
+Glycolysis / Gluconeogenesis	1	-0.198934558572305
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	0.184410984435564
+Glyoxylate and dicarboxylate metabolism	1	0.267697494299049
+Histidine metabolism	1	0.022731313879052
+Inositol phosphate metabolism	1	0.040754201666761
+Lipid biosynthesis proteins	1	-0.191907481565889
+Lipopolysaccharide biosynthesis proteins	1	0.0574541781961772
+Lysine biosynthesis	1	0.0794600246110042
+Lysine degradation	0.671109936732743	-0.351325400616287
+N-Glycan biosynthesis	1	0.0165719528592588
+Other glycan degradation	1	0.193173493415223
+Pentose and glucuronate interconversions	1	0.183016948916072
+Pentose phosphate pathway	1	-0.0167142013816559
+Peptidoglycan biosynthesis	1	-0.167369611452394
+Phenylalanine metabolism	1	-0.0440401425341334
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	0.130783291491868
+Phosphonate and phosphinate metabolism	1	-0.0224183671297785
+Primary bile acid biosynthesis	1	0.252149730801049
+Propanoate metabolism	1	-0.240784073861523
+Purine metabolism	1	-0.0731726399210536
+Pyrimidine metabolism	1	-0.187668475598456
+Pyruvate metabolism	1	-0.124126060643685
+Selenocompound metabolism	1	0.149545871596041
+Starch and sucrose metabolism	1	0.196615907657232
+Steroid hormone biosynthesis	1	0.0615793853456923
+Synthesis and degradation of ketone bodies	1	-0.138493161405789
+Taurine and hypotaurine metabolism	1	0.0224325919820182
+Tryptophan metabolism	0.280454858612975	-0.393743909995094
+Tyrosine metabolism	1	-0.315777494869259
+Valine, leucine and isoleucine degradation	1	-0.0389049708755991
+Various types of N-glycan biosynthesis	0.280454858612975	-0.389292914848979
+alpha-Linolenic acid metabolism	1	-0.176900262452998
+beta-Alanine metabolism	1	0.176217469545492
+OGTT_AUCG 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	0.0344438170525127
+Amino acid related enzymes	1	0.207227555053642
+Amino sugar and nucleotide sugar metabolism	1	-0.0559006211180124
+Arginine and proline metabolism	1	-0.153020892151327
+Ascorbate and aldarate metabolism	1	-0.0954263128176172
+Biosynthesis of unsaturated fatty acids	1	0.0536420101637493
+Butanoate metabolism	1	0.0434782608695652
+Valine, leucine and isoleucine biosynthesis	1	0.0062111801242236
+Steroid biosynthesis	1	-0.161412580781542
+Cyanoamino acid metabolism	1	-0.121400338791643
+Cysteine and methionine metabolism	1	0.261434217955957
+D-Alanine metabolism	1	0.116883116883117
+D-Arginine and D-ornithine metabolism	1	-0.116883116883117
+D-Glutamine and D-glutamate metabolism	1	0.203839638622247
+Ether lipid metabolism	1	0.174477696216827
+Fatty acid biosynthesis	1	-0.190287972896669
+Fatty acid metabolism	1	0.0062111801242236
+Fructose and mannose metabolism	1	0.0739695087521174
+Galactose metabolism	1	-0.00846979107848673
+Glycosyltransferases	1	-0.00959909655561829
+Glycerolipid metabolism	1	0.103331451157538
+Glycerophospholipid metabolism	1	-0.220779220779221
+Glycine, serine and threonine metabolism	1	0.0818746470920384
+Glycolysis / Gluconeogenesis	1	0.0107284020327499
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	-0.0536420101637493
+Glyoxylate and dicarboxylate metabolism	1	-0.0660643704121965
+Histidine metabolism	1	0.0220214568040655
+Inositol phosphate metabolism	1	-0.0671936758893281
+Lipid biosynthesis proteins	1	-0.00395256916996047
+Lipopolysaccharide biosynthesis proteins	1	0.038961038961039
+Lysine biosynthesis	1	0.0367024280067758
+Lysine degradation	1	-0.123658949745906
+N-Glycan biosynthesis	1	0.038961038961039
+Other glycan degradation	1	-0.0694522868435912
+Pentose and glucuronate interconversions	1	0.0197628458498024
+Pentose phosphate pathway	1	0.038961038961039
+Peptidoglycan biosynthesis	1	0.193675889328063
+Phenylalanine metabolism	1	-0.0536420101637493
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	-0.193675889328063
+Phosphonate and phosphinate metabolism	1	-0.160926030491248
+Primary bile acid biosynthesis	1	-0.0988142292490119
+Propanoate metabolism	1	-0.012987012987013
+Purine metabolism	1	0.159796725014116
+Pyrimidine metabolism	1	0.253529079616036
+Pyruvate metabolism	1	0.00282326369282891
+Selenocompound metabolism	1	0.0367024280067758
+Starch and sucrose metabolism	1	-0.125917560700169
+Steroid hormone biosynthesis	1	-0.0434782608695652
+Synthesis and degradation of ketone bodies	1	-0.262563523433089
+Taurine and hypotaurine metabolism	1	-0.0513833992094862
+Tryptophan metabolism	1	0.000564652738565782
+Tyrosine metabolism	1	0.0321852060982496
+Valine, leucine and isoleucine degradation	1	0.0694522868435912
+Various types of N-glycan biosynthesis	1	0.0306626049513323
+alpha-Linolenic acid metabolism	1	-0.0705815923207228
+beta-Alanine metabolism	1	0.031055900621118
+ADJREE 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	0.120881934566145
+Amino acid related enzymes	1	0.00825035561877667
+Amino sugar and nucleotide sugar metabolism	1	0.0126315789473684
+Arginine and proline metabolism	1	0.149075391180654
+Ascorbate and aldarate metabolism	1	0.0987197724039829
+Biosynthesis of unsaturated fatty acids	1	-0.0584921763869132
+Butanoate metabolism	1	0.233940256045519
+Valine, leucine and isoleucine biosynthesis	1	0.0932005689900427
+Steroid biosynthesis	1	0.0559519604291052
+Cyanoamino acid metabolism	1	-0.0218492176386913
+Cysteine and methionine metabolism	1	-0.121479374110953
+D-Alanine metabolism	1	-0.125376955903272
+D-Arginine and D-ornithine metabolism	1	-0.0761024182076813
+D-Glutamine and D-glutamate metabolism	1	0.103641536273115
+Ether lipid metabolism	1	0.0823044096728307
+Fatty acid biosynthesis	1	0.163499288762447
+Fatty acid metabolism	1	0.314765291607397
+Fructose and mannose metabolism	1	0.083954480796586
+Galactose metabolism	1	0.0623897581792319
+Glycosyltransferases	1	0.0141678520625889
+Glycerolipid metabolism	1	-0.00290184921763869
+Glycerophospholipid metabolism	1	-0.0112375533428165
+Glycine, serine and threonine metabolism	1	0.0995732574679943
+Glycolysis / Gluconeogenesis	1	0.140825035561878
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	-0.007425320056899
+Glyoxylate and dicarboxylate metabolism	1	0.151806543385491
+Histidine metabolism	1	0.0996301564722617
+Inositol phosphate metabolism	1	0.160625889046942
+Lipid biosynthesis proteins	1	0.134537695590327
+Lipopolysaccharide biosynthesis proteins	1	-0.0270839260312945
+Lysine biosynthesis	1	0.103129445234708
+Lysine degradation	1	0.239487908961593
+N-Glycan biosynthesis	1	0.0314366998577525
+Other glycan degradation	1	0.0625604551920341
+Pentose and glucuronate interconversions	1	0.0527453769559033
+Pentose phosphate pathway	1	-0.000512091038406828
+Peptidoglycan biosynthesis	1	-0.146628733997155
+Phenylalanine metabolism	1	0.130782361308677
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	0.0194879089615932
+Phosphonate and phosphinate metabolism	1	0.162418207681366
+Primary bile acid biosynthesis	1	0.0535704125177809
+Propanoate metabolism	1	0.226116642958748
+Purine metabolism	1	0.116984352773826
+Pyrimidine metabolism	1	0.0215647226173542
+Pyruvate metabolism	1	0.178122332859175
+Selenocompound metabolism	1	-0.113143669985775
+Starch and sucrose metabolism	1	-0.0800284495021337
+Steroid hormone biosynthesis	1	0.0202844950213371
+Synthesis and degradation of ketone bodies	1	0.0566429587482219
+Taurine and hypotaurine metabolism	1	0.0896443812233286
+Tryptophan metabolism	1	0.181166429587482
+Tyrosine metabolism	1	0.0795448079658606
+Valine, leucine and isoleucine degradation	1	0.115732574679943
+Various types of N-glycan biosynthesis	1	0.00524881307834447
+alpha-Linolenic acid metabolism	1	0.233883357041252
+beta-Alanine metabolism	1	-0.166998577524893
+ACETTOPROP 
+taxa ~ clinical_var
+	adj.pvals	coeffs
+Alanine, aspartate and glutamate metabolism	1	-0.236955903271693
+Amino acid related enzymes	1	0.0578378378378378
+Amino sugar and nucleotide sugar metabolism	1	-0.2774679943101
+Arginine and proline metabolism	1	-0.146344238975818
+Ascorbate and aldarate metabolism	1	0.0280796586059744
+Biosynthesis of unsaturated fatty acids	1	0.13647226173542
+Butanoate metabolism	1	0.32221906116643
+Valine, leucine and isoleucine biosynthesis	1	0.23578947368421
+Steroid biosynthesis	1	0.0777513430051592
+Cyanoamino acid metabolism	1	-0.205490753911807
+Cysteine and methionine metabolism	1	-0.0433285917496444
+D-Alanine metabolism	1	0.0622190611664296
+D-Arginine and D-ornithine metabolism	1	-0.0845803698435277
+D-Glutamine and D-glutamate metabolism	1	-0.169473684210526
+Ether lipid metabolism	1	0.097923186344239
+Fatty acid biosynthesis	1	0.171066856330014
+Fatty acid metabolism	1	0.336330014224751
+Fructose and mannose metabolism	1	0.0597724039829303
+Galactose metabolism	1	-0.157439544807966
+Glycosyltransferases	1	-0.246628733997155
+Glycerolipid metabolism	1	0.219402560455192
+Glycerophospholipid metabolism	1	0.0165007112375533
+Glycine, serine and threonine metabolism	1	-0.246628733997155
+Glycolysis / Gluconeogenesis	1	0.249815078236131
+Glycosphingolipid biosynthesis - lacto and neolacto series	1	-0.253513513513513
+Glyoxylate and dicarboxylate metabolism	1	-0.121877667140825
+Histidine metabolism	1	-0.0182076813655761
+Inositol phosphate metabolism	1	-0.0239829302987198
+Lipid biosynthesis proteins	1	0.059402560455192
+Lipopolysaccharide biosynthesis proteins	1	-0.24122332859175
+Lysine biosynthesis	1	0.137069701280228
+Lysine degradation	1	0.174509246088193
+N-Glycan biosynthesis	1	-0.151180654338549
+Other glycan degradation	1	-0.230753911806543
+Pentose and glucuronate interconversions	1	-0.121963015647226
+Pentose phosphate pathway	1	0.0926315789473684
+Peptidoglycan biosynthesis	1	0.0785775248933143
+Phenylalanine metabolism	1	0.0682788051209104
+Phenylalanine, tyrosine and tryptophan biosynthesis	1	0.113172119487909
+Phosphonate and phosphinate metabolism	1	0.0433001422475107
+Primary bile acid biosynthesis	1	-0.130668563300142
+Propanoate metabolism	1	0.309615931721195
+Purine metabolism	1	-0.0673115220483641
+Pyrimidine metabolism	1	0.0490469416785206
+Pyruvate metabolism	1	0.147994310099573
+Selenocompound metabolism	1	-0.160853485064011
+Starch and sucrose metabolism	1	-0.152944523470839
+Steroid hormone biosynthesis	1	-0.212347083926031
+Synthesis and degradation of ketone bodies	1	0.182617354196302
+Taurine and hypotaurine metabolism	1	-0.225803698435277
+Tryptophan metabolism	1	0.226145092460882
+Tyrosine metabolism	1	0.166799431009957
+Valine, leucine and isoleucine degradation	1	-0.149445234708393
+Various types of N-glycan biosynthesis	1	0.246788469629092
+alpha-Linolenic acid metabolism	1	-0.0981507823613087
+beta-Alanine metabolism	1	-0.194964438122333

@@ -1,19 +1,28 @@
 # Execute analysis for GM Tufts datasets
 
-setwd("/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis")
-source("/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/lib/collapse-features.r")
-source("/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/lib/run.alpha.test.r")
-source("/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/lib/run.taxon.tests.r")
-source("/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/lib/run.clinical.tests.r")
-source("/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/lib/predict.clinical.change.r")
+setwd("/Users/pvangay/Google Drive/UMN/KnightsLab/Gen Mills - Tufts/GitHub")
+
+source("./lib/src/run.alpha.test.r")
+source("./lib/src/run.taxon.tests.r")
+source("./lib/src/run.clinical.tests.r")
+source("./lib/src/predict.clinical.change.r")
+
+source("./lib/src/collapse-features.r")
+source('./lib/src/load.data.r')
+source('./lib/src/test.otu.features.r')
+source('./lib/src/get.next.kegg.r')	
+source('./lib/src/filter.pathways.r')	
+source('./lib/src/shorten.taxonomy.r')
+source("./lib/src/rf.cross.validation.classification.r")
+
 
 # this mapping file has been formatted to contain all new variables
-mapfile <-  "/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/data/GM_alldata_noIDs_fully_formatted.txt"
+mapfile <-  "./data/GM_alldata_noIDs_fully_formatted.txt"
 
-otufile_L6 <- "/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/data/otu_table_mc2_w_tax_L6_s18.txt"
-otufile_L2 <- "/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/data/otu_table_mc2_w_tax_L2_s18.txt"
-alphafile <- "/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/data/alpha_subsampled_19490.txt" 
-mg_file <- "/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/data/predicted.metagenomes.L3.txt"
+otufile_L6 <- "./data/otu_table_mc2_w_tax_L6_s18.txt"
+otufile_L2 <- "./data/otu_table_mc2_w_tax_L2_s18.txt"
+alphafile <- "./data/alpha_subsampled_19490.txt" 
+mg_file <- "./data/predicted.metagenomes.L3.txt"
 
 # 1. Run all variations of testing for differential taxon
 run.taxon.tests(mapfile, otufile_L2, outputfile="taxon_differences_L2.txt")
@@ -41,7 +50,7 @@ run.clinical.tests(mapfile=mapfile, otufile=mg_file, clinical.vars=clinical.vars
 
 
 # clinical variables by lab
-covariates.df <- read.table("/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/data/covariates_by_lab.txt",sep='\t',head=T,comment='')
+covariates.df <- read.table("./data/covariates_by_lab.txt",sep='\t',head=T,comment='')
 
 	# NIL
 	covariates <- toupper(covariates.df[,1])
@@ -72,10 +81,10 @@ covariates.df <- read.table("/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tuft
 	run.clinical.tests(mapfile=mapfile, otufile=otufile_L6, clinical.vars=covariates, alphafile=alphafile,run.test=c(6,8))
 	run.clinical.tests(mapfile=mapfile, otufile=otufile_L6, clinical.vars=covariates, alphafile=alphafile,run.test=c(3,4,5,7))
 	# VBL - partial samples 
-	run.clinical.tests(mapfile="/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/data/GM_alldata_noIDs_fully_formatted_VBL_PartialSamples.txt", otufile=mg_file, clinical.vars=covariates, alphafile=alphafile,run.test=c(3,4,5))
-	run.clinical.tests(mapfile="/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/data/GM_alldata_noIDs_fully_formatted_VBL_PartialSamples.txt", otufile=otufile_L6, clinical.vars=covariates, alphafile=alphafile,run.test=c(4))
-	run.clinical.tests(mapfile="/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/data/GM_alldata_noIDs_fully_formatted_VBL_PartialSamples.txt", otufile=otufile_L6, clinical.vars=covariates, alphafile=alphafile,run.test=c(3,4,5,7))
-	run.clinical.tests(mapfile="/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/data/GM_alldata_noIDs_fully_formatted_VBL_PartialSamples.txt", otufile=otufile_L6, clinical.vars=covariates, alphafile=alphafile,run.test=c(6,8))
+	run.clinical.tests(mapfile="./data/GM_alldata_noIDs_fully_formatted_VBL_PartialSamples.txt", otufile=mg_file, clinical.vars=covariates, alphafile=alphafile,run.test=c(3,4,5))
+	run.clinical.tests(mapfile="./data/GM_alldata_noIDs_fully_formatted_VBL_PartialSamples.txt", otufile=otufile_L6, clinical.vars=covariates, alphafile=alphafile,run.test=c(4))
+	run.clinical.tests(mapfile="./data/GM_alldata_noIDs_fully_formatted_VBL_PartialSamples.txt", otufile=otufile_L6, clinical.vars=covariates, alphafile=alphafile,run.test=c(3,4,5,7))
+	run.clinical.tests(mapfile="./data/GM_alldata_noIDs_fully_formatted_VBL_PartialSamples.txt", otufile=otufile_L6, clinical.vars=covariates, alphafile=alphafile,run.test=c(6,8))
 
 	# TMC 
 	covariates <- toupper(covariates.df[,4])

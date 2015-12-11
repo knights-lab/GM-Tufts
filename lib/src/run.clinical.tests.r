@@ -3,8 +3,6 @@
 #y=map[samples_A,"clinical_delta"]
 add.significant.plots <- function(taxa, clinical.var, pre.main, x, y, coeffs, pvals)
 {
-	source('/Users/pvangay/Copy/UMN/Rscripts/shorten.taxonomy.r')
-
 	short.taxa <- shorten.taxonomy(taxa)
 
 	if(length(taxa) > 0)
@@ -233,8 +231,9 @@ delta.taxon.v.delta.covariate.all.groups <- function(otu_delta, map_delta, outpu
 taxon.v.covariate <- function(otu, map, clinical.vars, timepoint=1, controls)
 {
 	outputfile=paste("taxon-v-covariate-timepoint-", timepoint, ".txt", sep="")
+	corr.outputfile=paste("taxon-v-covariate-timepoint-", timepoint, "-correlation.txt", sep="")
 	
-	pdf(file=paste("/Users/pvangay/Copy/UMN/KnightsLab/Gen Mills - Tufts/analysis/taxon-v-covariate-timepoint-", timepoint, ".pdf", sep=""))	
+	pdf(file=paste("taxon-v-covariate-timepoint-", timepoint, ".pdf", sep=""))	
 
 	no.sig.taxa <- TRUE
 	n.clinical.vars <- length(clinical.vars)
@@ -250,6 +249,10 @@ taxon.v.covariate <- function(otu, map, clinical.vars, timepoint=1, controls)
 		write.table(ret4[[1]], file=outputfile, append=T, sep="\t", quote=F)
 
 		ret4.corr <- test.otu.features(otu, map, response="taxa", treatment=clinical.var, controls=controls, use.corr=T, p.adjust.factor=n.clinical.vars)	
+
+		cat(clinical.var, "\n", file=corr.outputfile, append=T)
+		cat("taxa ~ clinical_var\n\t", file=corr.outputfile, append=T)
+		write.table(ret4.corr, file=corr.outputfile, append=T, sep="\t", quote=F)
 
 		# let's only print taxa that are significant in both LM and Spearman's
 		# make sure that we ignore any that are NA 
@@ -308,12 +311,6 @@ test.alpha.div <- function(samples1, samples2, map_delta, alphafile, outputfile=
 
 run.clinical.tests <- function(mapfile, otufile, clinical.vars, alphafile, run.test=c(2,3,4), keep.pathways.file='data/pathways.to.keep.txt', controls=c("SEX","RACE","BMI"))
 {
-	source('lib/load.data.r')
-	source('lib/test.otu.features.r')
-	source('lib/get.next.kegg.r')	
-	source('lib/filter.pathways.r')	
-	source('lib/predict.clinical.change.r')
-
 	library('beeswarm')
 
 	# read in data files	

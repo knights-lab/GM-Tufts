@@ -1,11 +1,5 @@
 run.taxon.tests <- function(mapfile, otufile, outputfile, keep.pathways.file='data/pathways.to.keep.txt')
 {
-	source('lib/load.data.r')
-	source('lib/test.otu.features.r')
-	source('lib/get.next.kegg.r')	
-	source('lib/filter.pathways.r')	
-	source('lib/shorten.taxonomy.r')
-
 	minOTUInSamples = .001
 	ret <- load.data(otufile=otufile, mapfile=mapfile, minOTUInSamples=minOTUInSamples, normalize=TRUE)
 	otu <- ret$otu
