@@ -1,0 +1,35 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+SERUMPK 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;Other	8.34417178646049e-05	0.00328204090267446	77.296698289974
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__	4.89869320505999e-05	0.00289022899098539	-41.2462328449878
+MK4 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Atopobium	0.0017842211543905	0.210538096218079	221.439179504432
+MK6 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Actinobacteria;o__Bifidobacteriales;f__Bifidobacteriaceae;g__Bifidobacterium	0.0222676612812082	0.212067162401891	3.78655839002234
+MK7 
+Group A
+pvals	adj.pvals	coeffs
+k__Archaea;p__Euryarchaeota;c__Methanobacteria;o__Methanobacteriales;f__Methanobacteriaceae;g__Methanobrevibacter	0.0148082238498846	0.129543653618392	2.78326267642645
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__	0.000805862974466436	0.0237729577467599	7.94023018460426
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Collinsella	0.0289909894392604	0.172865111740218	4.93555069719626
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Odoribacteraceae];g__Odoribacter	0.0028029930312152	0.0449715889445775	-17.8599069716996
+k__Bacteria;p__Cyanobacteria;c__4C0d-2;o__YS2;f__;g__	0.00409223214244038	0.0536537103119961	12.3038739520037
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__;g__	0.016489693404242	0.129718921446704	1.95713952115118
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__	0.000646820642777702	0.0237729577467599	4.17672828053774
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__EtOH8;g__	0.0152184360097319	0.129543653618392	30.8314086322177
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__PSB-M-3	0.0267668767903358	0.172865111740218	38.9430743660867
+k__Bacteria;p__Proteobacteria;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter	0.00304892128437814	0.0449715889445775	33.4318012469147
+MK13 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;Other;Other;Other;Other;Other	0.0172885718590823	0.204005147937171	658.439530391031
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Paraprevotellaceae];g__	0.000960882829154731	0.0377947246134194	202.056252165342
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__	0.00732499961689566	0.172869990958737	77.4019805565775
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Megasphaera	0.000288715954046142	0.0170342412887224	61.9641225056009
+k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfovibrionaceae;g__	0.0154619129498949	0.204005147937171	404.086334376126

@@ -43,7 +43,8 @@ test.delta.interactions <- function(otu_delta, map_delta, outputfile="interactio
 }
 
 #change in clinical_var ~ change in taxa, stratified by Group
-delta.taxon.v.delta.covariate.within.group <- function(otu_delta, map_delta, outputfile="delta-taxon-v-delta-covariate-within-group.txt", clinical.vars, controls, plot.pvals=F)
+delta.taxon.v.delta.covariate.within.group <- function(otu_delta, map_delta, outputfile="delta-taxon-v-delta-covariate-within-group.txt", 
+											clinical.vars, controls, plot.pvals=F, control.baseline=F, otu.baseline)
 {
 	corr.outputfile <- "delta-taxon-v-delta-covariate-within-group-correlation.txt"
 	cat("Delta Taxon ~ Delta Clinical\n", file=outputfile)
@@ -61,13 +62,27 @@ delta.taxon.v.delta.covariate.within.group <- function(otu_delta, map_delta, out
 	for(i in 1:n.clinical.vars)
 	{	
 		clinical.var <- clinical.vars[i]
-		delta.clinical.var <- paste("delta", clinical.var,sep="_")
+		delta.clinical.var <- paste("delta", clinical.var,sep="_")	
 	
-		ret2A <- test.otu.features(otu=otu_delta[samples_A,], map=map_delta[samples_A,], response=delta.clinical.var, treatment="taxa", 
-								controls=controls, p.adjust.factor=n.clinical.vars)	
-		ret2B <- test.otu.features(otu=otu_delta[samples_B,], map=map_delta[samples_B,], response=delta.clinical.var, treatment="taxa", 
-								controls=controls, p.adjust.factor=n.clinical.vars)	
-	
+		# if we want to control for the initial value of the clinical var and initial value of the taxa
+		# NOTE: don't adjust for number of clinical variables
+print(clinical.vars[i])
+		if(control.baseline==T) {
+print("--------------------1GROUP A COMPARISONS")
+			ret2A <- test.otu.features2(otu=otu_delta[samples_A,], map=map_delta[samples_A,], response=delta.clinical.var, treatment="taxa", 
+									controls=c(controls, clinical.var), otu.baseline=otu.baseline[samples_A,])	
+print("--------------------2GROUP B COMPARISONS")
+			ret2B <- test.otu.features2(otu=otu_delta[samples_B,], map=map_delta[samples_B,], response=delta.clinical.var, treatment="taxa", 
+									controls=c(controls, clinical.var), otu.baseline=otu.baseline[samples_B,])	
+		
+		} else {
+print("--------------------3GROUP A COMPARISONS")
+			ret2A <- test.otu.features(otu=otu_delta[samples_A,], map=map_delta[samples_A,], response=delta.clinical.var, treatment="taxa", 
+									controls=controls)	
+print("--------------------4GROUP B COMPARISONS")
+			ret2B <- test.otu.features(otu=otu_delta[samples_B,], map=map_delta[samples_B,], response=delta.clinical.var, treatment="taxa", 
+									controls=controls)	
+		}
 	
 		cat(clinical.var, "\n", file=outputfile, append=T)
 		cat("delta_clinical ~ delta_taxa\nGroup A:\n\t", file=outputfile, append=T)
@@ -78,9 +93,9 @@ delta.taxon.v.delta.covariate.within.group <- function(otu_delta, map_delta, out
 		write.table(ret2B[[1]], file=outputfile, append=T, sep="\t", quote=F)
 
 		ret2A.corr <- test.otu.features(otu=otu_delta[samples_A,], map=map_delta[samples_A,], response=delta.clinical.var, treatment="taxa", 
-								controls=controls, use.corr=T, p.adjust.factor=n.clinical.vars)	
+								controls=controls, use.corr=T)	
 		ret2B.corr <- test.otu.features(otu_delta[samples_B,], map_delta[samples_B,], response=delta.clinical.var, treatment="taxa", 
-								controls=controls, use.corr=T, p.adjust.factor=n.clinical.vars)	
+								controls=controls, use.corr=T)	
 
 		cat(clinical.var, "\n", file=corr.outputfile, append=T)
 		cat("delta_clinical ~ delta_taxa\nGroup A:\n\t", file=corr.outputfile, append=T)
@@ -149,7 +164,8 @@ delta.taxon.v.delta.covariate.within.group <- function(otu_delta, map_delta, out
 	}
 }
 
-delta.taxon.v.delta.covariate.all.groups <- function(otu_delta, map_delta, outputfile="delta-taxon-v-delta-covariate-all-groups.txt", clinical.vars, controls, plot.pvals=F)
+delta.taxon.v.delta.covariate.all.groups <- function(otu_delta, map_delta, outputfile="delta-taxon-v-delta-covariate-all-groups.txt", 
+											clinical.vars, controls, plot.pvals=F, control.baseline=F, otu.baseline)
 {
 	corr.outputfile <- "delta-taxon-v-delta-covariate-all-groups-correlation.txt"
 	cat("Delta Taxon ~ Delta Clinical\n", file=outputfile)
@@ -166,16 +182,23 @@ delta.taxon.v.delta.covariate.all.groups <- function(otu_delta, map_delta, outpu
 	{	
 		clinical.var <- clinical.vars[i]
 		delta.clinical.var <- paste("delta", clinical.var,sep="_")
-	
-		ret <- test.otu.features(otu=otu_delta, map=map_delta, response=delta.clinical.var, treatment="taxa", 
-								controls=controls, p.adjust.factor=n.clinical.vars)	
+
+print(clinical.vars[i])
+print("--------------------ALL GROUP COMPARISONS")
+		if(control.baseline==T){
+			ret <- test.otu.features2(otu=otu_delta, map=map_delta, response=delta.clinical.var, treatment="taxa", 
+								controls=c(controls, clinical.var), otu.baseline=otu.baseline)	
+		} else {
+			ret <- test.otu.features(otu=otu_delta, map=map_delta, response=delta.clinical.var, treatment="taxa", 
+								controls=controls)	
+		}
 		
 		cat(clinical.var, "\n", file=outputfile, append=T)
 		cat("delta_clinical ~ delta_taxa:\n\t", file=outputfile, append=T)
 		write.table(ret[[1]], file=outputfile, append=T, sep="\t", quote=F)
 
 		ret.corr <- test.otu.features(otu=otu_delta, map=map_delta, response=delta.clinical.var, treatment="taxa", 
-								controls=controls, use.corr=T, p.adjust.factor=n.clinical.vars)	
+								controls=controls, use.corr=T)	
 
 		cat(clinical.var, "\n", file=corr.outputfile, append=T)
 		cat("delta_clinical ~ delta_taxa:\n\t", file=corr.outputfile, append=T)
@@ -242,13 +265,13 @@ taxon.v.covariate <- function(otu, map, clinical.vars, timepoint=1, controls)
 	{	
 		clinical.var <- clinical.vars[i]
 		
-		ret4 <- test.otu.features(otu, map, treatment=clinical.var, controls=controls, p.adjust.factor=n.clinical.vars)	
+		ret4 <- test.otu.features(otu, map, treatment=clinical.var, controls=controls)	
 
 		cat(clinical.var, "\n", file=outputfile, append=T)
 		cat("taxa ~ clinical_var\n\t", file=outputfile, append=T)
 		write.table(ret4[[1]], file=outputfile, append=T, sep="\t", quote=F)
 
-		ret4.corr <- test.otu.features(otu, map, response="taxa", treatment=clinical.var, controls=controls, use.corr=T, p.adjust.factor=n.clinical.vars)	
+		ret4.corr <- test.otu.features(otu, map, response="taxa", treatment=clinical.var, controls=controls, use.corr=T)	
 
 		cat(clinical.var, "\n", file=corr.outputfile, append=T)
 		cat("taxa ~ clinical_var\n\t", file=corr.outputfile, append=T)
@@ -300,7 +323,7 @@ test.alpha.div <- function(samples1, samples2, map_delta, alphafile, outputfile=
 		clinical.var <- clinical.vars[i]
 		delta.clinical.var <- paste("delta", clinical.var,sep="_")
 
-		ret3 <- test.otu.features(alpha_div, map_delta, treatment=delta.clinical.var, controls=controls, p.adjust.factor=n.clinical.vars)	
+		ret3 <- test.otu.features(alpha_div, map_delta, treatment=delta.clinical.var, controls=controls)	
 		cat(clinical.var, "\n", file=outputfile, append=T)
 		rownames(ret3[[1]]) <- c("alpha_div1 ~ delta_clinical_var", "delta_alpha_div ~ delta_clinical_var")
 		write.table(ret3[[1]], file=outputfile, append=T, sep="\t", quote=F)
@@ -389,5 +412,21 @@ run.clinical.tests <- function(mapfile, otufile, clinical.vars, alphafile, run.t
 		rownames(initial.otu) <- rownames(otu[ix_t2,]) # just rename the rownames to be the 2nd timepoints because this is how the delta_map got renamed
 		predict.clinical.change(otu=initial.otu, map_delta=map_delta, clinical.vars=clinical.vars, n.iterations=10, otu.delta=FALSE)
 	}
-	
+	if(9 %in% run.test) {
+		# this test runs the typical test, but instead controls for baseline clinical var and baseline taxa value
+		rownames(otu_delta) <- rownames(map)[ix_t1] #participant_ids at timepoint 1 (not relevant since these are deltas but just important for merging to map purposes)
+		map_delta <- cbind(map[ix_t1, ], clinical_deltas) # for use with controlling for baseline clinical vars 
+
+print("--------------------0WITHIN GROUP COMPARISONS")
+		delta.taxon.v.delta.covariate.within.group(otu_delta=otu_delta, map_delta=map_delta, clinical.vars=clinical.vars, plot.pvals=F, controls=controls, control.baseline=T, otu.baseline=otu[ix_t1,])
+print("--------------------0ALL GROUP COMPARISONS")
+		delta.taxon.v.delta.covariate.all.groups(otu_delta=otu_delta, map_delta=map_delta, clinical.vars=clinical.vars, plot.pvals=F, controls=controls, control.baseline=T, otu.baseline=otu[ix_t1,])
+	} 
+	if (10 %in% run.test) {
+		taxon.v.covariate(otu=otu_delta, map=map[ix_t2,], clinical.vars=clinical.vars, timepoint=2, controls=controls)
+	}
+	if (11 %in% run.test) { # delta MB predicts measpredREE_2
+		predict.clinical.change(otu=otu_delta, map_delta=map_delta, clinical.vars=clinical.vars, n.iterations=10, otu.delta=TRUE)
+	}
+
 }

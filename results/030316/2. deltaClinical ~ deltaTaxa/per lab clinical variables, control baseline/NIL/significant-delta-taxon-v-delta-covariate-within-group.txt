@@ -1,0 +1,46 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+LYMPHO 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__Catenibacterium	0.00024142267498429	0.026910493457082	62.3002739943996
+CD8 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptococcaceae;g__rc4-4	0.00382317516601753	0.0563918336987585	272.68481609289
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__	0.00799419663972603	0.0929435940256722	-239.849494827406
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Megasphaera	0.00338812700349167	0.0563918336987585	-50.0401682468349
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Mitsuokella	4.13904487180682e-05	0.00244203647436602	-139.205647745944
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Phascolarctobacterium	1.21261663649159e-05	0.00143088763106008	-88.8102575081968
+CD8CM 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Paraprevotellaceae];g__Paraprevotella	0.0194346822882024	0.203797044737929	81.0468959037896
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Blautia	0.0187634837447423	0.203797044737929	-75.1104016582473
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Dorea	0.040602258022733	0.239553322334125	-149.006536576391
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__[Tissierellaceae];g__Parvimonas	0.0154994653686201	0.203797044737929	-2261.35117061611
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__cc_115	0.0239102161304808	0.203797044737929	-824.695204271917
+CD8NAIVE 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Prevotellaceae;g__Prevotella	0.00116881188590592	0.137919802536898	-38.8291351822676
+LARGSTRESPC 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Eggerthella	0.00646910881295064	0.218757645906419	564.002021563592
+ANTI_CD3_10UG_PER_ML 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Atopobium	0.0302547858175231	0.238004315097848	2480223.67441893
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptococcaceae;g__rc4-4	0.000603650915850568	0.0398731311140191	1032346.1551575
+CELLDEATH12 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__[Ruminococcus]	0.00228248316973626	0.134666507014439	126.899785802006
+STOOL_TGF 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Phascolarctobacterium	0.00813193842808812	0.0564452196773175	-3.82936673306384
+PROPIONATE 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;Other	0.00788834341589328	0.186164904615081	59.847674556193

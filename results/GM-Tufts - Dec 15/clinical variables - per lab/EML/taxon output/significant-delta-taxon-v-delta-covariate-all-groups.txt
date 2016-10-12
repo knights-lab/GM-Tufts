@@ -1,0 +1,4 @@
+Significant Delta Taxon ~ Delta Clinical for all Groups
+H 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;Other;Other	0.00141110011778681	0.166509813898843	-130.988715317809

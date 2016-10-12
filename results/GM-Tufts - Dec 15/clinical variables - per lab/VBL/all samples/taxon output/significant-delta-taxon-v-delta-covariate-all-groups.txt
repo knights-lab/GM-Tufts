@@ -1,0 +1,8 @@
+Significant Delta Taxon ~ Delta Clinical for all Groups
+CRE 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;Other;Other	0.000240136748334266	0.0283361363034434	-17154.4630167626
+BPDAVG 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Blautia	0.000899352941998925	0.0353745490519577	-33.7019793045123
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Coprococcus	0.000172825303538705	0.016130914823719	-43.4676659899249

@@ -1,0 +1,9 @@
+Significant Delta Taxon ~ Delta Clinical for all Groups
+NKTPERCCD3POS 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__S24-7;g__	0.00233650892460672	0.0919026843678643	20.4900985937998
+STOOL_TGF 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Adlercreutzia	0.0199184811955444	0.14689879881714	18.1394816575066
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Oscillospira	0.00232938388040182	0.0447994519572879	5.21960556233497
+k__Bacteria;p__Firmicutes;c__Erysipelotrichi;o__Erysipelotrichales;f__Erysipelotrichaceae;g__cc_115	0.0169041234668924	0.13297910460622	29.4176749299697

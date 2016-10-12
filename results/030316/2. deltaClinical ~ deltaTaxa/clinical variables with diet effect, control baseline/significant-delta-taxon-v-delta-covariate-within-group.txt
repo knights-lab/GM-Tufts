@@ -1,0 +1,25 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+FM 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Odoribacteraceae];g__Butyricimonas	0.00103488241760018	0.122116125276821	-59.0732542143054
+CD4NAIVE 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__S24-7;g__	0.0175188809885078	0.137815197109595	-219.909479984379
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__Clostridium	0.00484450206143199	0.0791357227218421	363.520312467738
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Clostridiaceae;g__SMB53	0.0100024412621522	0.101176668107625	1399.53717756447
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Eubacteriaceae;g__Anaerofustis	0.00226037406995447	0.0607855255136961	2298.15048719329
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__[Tissierellaceae];g__Parvimonas	0.00594206100489147	0.0791357227218421	3341.1101854896
+CONA_5UG_PER_ML 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptococcaceae;g__rc4-4	0.00660193909668018	0.0779028813408262	637435.489479418
+ACETATE 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Slackia	0.00249496945049487	0.165145463142199	-197.013858650752
+PROPIONATE 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;Other	0.00788834341589328	0.186164904615081	59.847674556193

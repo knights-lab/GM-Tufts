@@ -1,0 +1,5 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+MATSUDA 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Peptococcaceae;g__	0.00201898321352551	0.23824001919601	-247.009970376295

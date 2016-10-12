@@ -1,0 +1,29 @@
+Significant Delta Taxon ~ Delta Clinical within Groups
+SERUMPK 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;Other	0.00401042777388308	0.0946460954636408	52.614883576066
+k__Bacteria;p__Proteobacteria;c__Gammaproteobacteria;o__Enterobacteriales;f__Enterobacteriaceae;g__	0.000984015538198936	0.0290284583768686	-31.7749332352524
+MK7 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Actinobacteria;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__	0.000756044188055055	0.0446066070952483	9.32786080156811
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Odoribacteraceae];g__Odoribacter	0.00360851212336478	0.0917363327070951	-19.2385071054156
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__;g__	0.0121862466001732	0.110613622986187	2.1669488964356
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__	0.000419075128066265	0.0446066070952483	5.78092876138985
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__EtOH8;g__	0.00916210377738397	0.110613622986187	58.029973324869
+k__Bacteria;p__Proteobacteria;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter	0.0117446758602549	0.110613622986187	33.298977871201
+MK8 
+Group A
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Proteobacteria;c__Epsilonproteobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter	0.00079221867321248	0.0934818034390726	17.4384744585634
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;g__Anaerotruncus	0.0102774969153773	0.17324923371636	33.2986968850614
+k__Bacteria;p__Proteobacteria;c__Betaproteobacteria;o__Burkholderiales;f__Oxalobacteraceae;g__Oxalobacter	0.0073654895006187	0.144854626845501	15.5491784433176
+k__Bacteria;p__Tenericutes;c__Mollicutes;o__RF39;f__;g__	1.43723580625443e-06	0.000169593825138023	3.0054341414713
+MK13 
+Group B
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Bacteroidetes;c__Bacteroidia;o__Bacteroidales;f__[Paraprevotellaceae];g__	0.000734366102212789	0.0123793142944442	244.45790890409
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Veillonellaceae;g__Megasphaera	4.39042521680655e-06	0.000259035087791587	77.8996434952463

@@ -1,0 +1,7 @@
+Significant Delta Taxon ~ Delta Clinical for all Groups
+WATER 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Ruminococcaceae;Other	0.000713892947712882	0.08423936783012	-277.230882551373
+AA_RATIO 
+pvals	adj.pvals	coeffs
+k__Bacteria;p__Proteobacteria;c__Deltaproteobacteria;o__Desulfovibrionales;f__Desulfovibrionaceae;g__Desulfovibrio	0.00140652661153892	0.011861287580793	-2.7984916636313

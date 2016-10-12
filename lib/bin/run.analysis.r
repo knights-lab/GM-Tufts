@@ -1,6 +1,6 @@
 # Execute analysis for GM Tufts datasets
 
-setwd("/Users/pvangay/Google Drive/UMN/KnightsLab/Gen Mills - Tufts/GitHub")
+setwd("/Users/pvangay/Dropbox/UMN/KnightsLab/Gen Mills - Tufts/GitHub")
 
 source("./lib/src/run.alpha.test.r")
 source("./lib/src/run.taxon.tests.r")
@@ -46,8 +46,25 @@ run.clinical.tests(mapfile=mapfile, otufile=otufile_L6, clinical.vars=clinical.v
 run.taxon.tests(mapfile=mapfile, otufile=mg_file, outputfile="metagenome_differences.txt")
 
 # 6. PICRUST: Find Association and interactions between change in microbiome and change in clinical variables
-run.clinical.tests(mapfile=mapfile, otufile=mg_file, clinical.vars=clinical.vars2, alphafile=alphafile,run.test=c(3,4,5,7))
+run.clinical.tests(mapfile=mapfile, otufile=mg_file, clinical.vars=clinical.vars, alphafile=alphafile,run.test=c(3,4,5,7))
 
+# 7. Find Association and interactions between change in microbiome and change in clinical variables - CONTROLLING FOR BASELINE
+run.clinical.tests(mapfile=mapfile, otufile=otufile_L6, clinical.vars=clinical.vars2, alphafile=alphafile,run.test=c(9))
+
+# 8. only run this test: delta_taxa ~ group + BMI + Age + Gender + taxa_time1 (CONTROLLING FOR BASELINE)
+# 8a. AND also run this test: taxa_time2 ~ group + BMI + Age + Gender + taxa_time1 (CONTROLLING FOR BASELINE)
+run.taxon.tests(mapfile, otufile_L2, outputfile="taxon_differences_L2.txt", control.baseline=T)
+run.taxon.tests(mapfile, otufile_L6, outputfile="taxon_differences_L6.txt", control.baseline=T)
+run.taxon.tests(mapfile=mapfile, otufile=mg_file, outputfile="metagenome_differences.txt", control.baseline=T)
+
+# 9. special case:  delta_taxa ~ measpredREE_2
+run.clinical.tests(mapfile=mapfile, otufile=otufile_L6, clinical.vars="MEASPREDREE", alphafile=alphafile,run.test=c(10))
+
+# 10. special case:  delta_taxa predict measpredREE_2
+run.clinical.tests(mapfile=mapfile, otufile=otufile_L6, clinical.vars="MEASPREDREE", alphafile=alphafile,run.test=c(11))
+
+# 11. PICRUST: delta mg predict delta covariate
+run.clinical.tests(mapfile=mapfile, otufile=mg_file, clinical.vars=clinical.vars2, alphafile=alphafile,run.test=c(6))
 
 # clinical variables by lab
 covariates.df <- read.table("./data/covariates_by_lab.txt",sep='\t',head=T,comment='')
@@ -57,17 +74,23 @@ covariates.df <- read.table("./data/covariates_by_lab.txt",sep='\t',head=T,comme
 	covariates <- covariates[covariates != ""]
 	# METAGENOME
 	run.clinical.tests(mapfile=mapfile, otufile=mg_file, clinical.vars=covariates, alphafile=alphafile,run.test=c(3,4,5))
+	run.clinical.tests(mapfile=mapfile, otufile=mg_file, clinical.vars=covariates, alphafile=alphafile,run.test=c(6))
 	# TAXON
 	run.clinical.tests(mapfile=mapfile, otufile=otufile_L6, clinical.vars=covariates, alphafile=alphafile,run.test=c(4))
 
 	run.clinical.tests(mapfile=mapfile, otufile=otufile_L6, clinical.vars=covariates, alphafile=alphafile,run.test=c(3,4,5,7))
 	run.clinical.tests(mapfile=mapfile, otufile=otufile_L6, clinical.vars=covariates, alphafile=alphafile,run.test=c(6,8))
 
+	run.clinical.tests(mapfile=mapfile, otufile=otufile_L6, clinical.vars=covariates, alphafile=alphafile,run.test=c(5,7))
+	# CONTROLLING FOR BASELINE
+	run.clinical.tests(mapfile=mapfile, otufile=otufile_L6, clinical.vars=covariates, alphafile=alphafile,run.test=c(9))
+
 	# EML
 	covariates <- toupper(covariates.df[,2])
 	covariates <- covariates[covariates != ""]
 	# skip BMI for now - MG analysis
 	run.clinical.tests(mapfile=mapfile, otufile=mg_file, clinical.vars=covariates[-2], alphafile=alphafile,run.test=c(3,4,5))
+	run.clinical.tests(mapfile=mapfile, otufile=mg_file, clinical.vars=covariates, alphafile=alphafile,run.test=c(6))
 	run.clinical.tests(mapfile=mapfile, otufile=otufile_L6, clinical.vars=covariates[-2], alphafile=alphafile,run.test=c(3,4,5,7))
 	run.clinical.tests(mapfile=mapfile, otufile=otufile_L6, clinical.vars=covariates, alphafile=alphafile,run.test=c(6,8))
 	# BMI run separately

@@ -1,0 +1,5 @@
+Significant Delta Taxon ~ Delta Clinical for all Groups
+MK7 
+pvals	adj.pvals	coeffs
+k__Archaea;p__Euryarchaeota;c__Methanobacteria;o__Methanobacteriales;f__Methanobacteriaceae;g__Methanobrevibacter	0.000567366926452648	0.16067831357139	3.79018411440454
+k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Christensenellaceae;g__	0.000330628079499721	0.156056453523868	4.08979783173005

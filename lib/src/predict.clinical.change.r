@@ -20,6 +20,7 @@ predict.clinical.change <- function(map_delta, otu, clinical.vars, n.iterations=
 	{	
 		clinical.var <- clinical.vars[i]
 		delta.clinical.var <- paste("delta", clinical.var,sep="_")
+#		delta.clinical.var <- clinical.var
 		
 		r_squared_A <- numeric()
 		r_squared_B <- numeric()
